@@ -1,0 +1,146 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	'Balaenoptera acutorostrata'
+	'Balaenoptera physalus'
+	'Bos taurus'
+	'Cephalorhynchus commersonii'
+	'Cephalorhynchus heavisidii'
+	'Delphinapterus leucas'
+	'Delphinus delphis'
+	'Eschrichtius robustus'
+	'Eubalaena glacialis'
+	'Feresa attenuata'
+	'Globicephala melas'
+	'Grampus griseus'
+	'Hyperoodon ampullatus'
+	'Inia geoffrensis'
+	'Kogia breviceps'
+	'Kogia sima'
+	'Lagenorhynchus australis'
+	'Lagenorhynchus obliquidens'
+	'Lagenorhynchus obscurus'
+	'Lipotes vexillifer'
+	'Lissodelphis peronii'
+	'Megaptera novaeangliae'
+	'Mesoplodon densirostris'
+	'Monodon monoceros'
+	'Neophocaena asiaeorientalis asiaeorientalis'
+	'Neophocaena phocaenoides'
+	'Orcaella brevirostris'
+	'Orcaella heinsohni'
+	'Orcinus orca'
+	'Peponocephala electra'
+	'Phocoena phocoena'
+	'Phocoena sinus'
+	'Phocoena spinipinnis'
+	'Physeter catodon'
+	'Platanista gangetica'
+	'Pontoporia blainvillei'
+	'Sotalia fluviatilis'
+	'Sotalia guianensis'
+	'Sousa chinensis'
+	'Stenella attenuata'
+	'Sus scrofa'
+	'Tursiops aduncus'
+	'Tursiops truncatus'
+	'Ziphius cavirostris'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Stenella attenuata':0.00105,(('Tursiops aduncus':6.54E-4,'Tursiops truncatus':6.21E-4)[&label="68.2/0.986/83"]:2.41E-4,'Delphinus delphis':8.63E-4)[&label="76.6/0.876/82"]:1.84E-4,((('Sotalia guianensis':4.11E-4,'Sotalia fluviatilis':4.1E-4)[&label="98.6/1/100"]:7.95E-4,((((((('Globicephala melas':4.08E-4,'Peponocephala electra':8.59E-4)[&label="86.5/0.999/96"]:2.05E-4,'Feresa attenuata':9.37E-4)[&label="85.9/0.999/95"]:2.04E-4,'Grampus griseus':8.44E-4)[&label="97.7/1/100"]:9.71E-4,('Orcaella brevirostris':8.59E-4,'Orcaella heinsohni':9.51E-4)[&label="97.5/1/100"]:9.51E-4)[&label="98.8/1/99"]:0.001136,((('Lagenorhynchus obliquidens':1.32E-4,'Lagenorhynchus obscurus':6.33E-4)[&label="75.5/0.95/97"]:1.32E-4,'Lissodelphis peronii':0.001356)[&label="73.6/0.863/93"]:1.4E-4,(('Lagenorhynchus australis':0.00102,'Cephalorhynchus commersonii':0.001431)[&label="0/0.335/79"]:2.0E-6,'Cephalorhynchus heavisidii':2.0E-6)[&label="94.8/1/99"]:4.8E-4)[&label="99.8/1/100"]:0.001833)[&label="20.9/0.545/37"]:1.23E-4,'Orcinus orca':0.004234)[&label="32.7/0.917/53"]:7.0E-4,((((('Phocoena sinus':5.96E-4,'Phocoena spinipinnis':7.94E-4)[&label="87/1/99"]:5.72E-4,'Phocoena phocoena':0.001738)[&label="86.2/0.989/97"]:3.11E-4,('Neophocaena asiaeorientalis asiaeorientalis':6.25E-4,'Neophocaena phocaenoides':0.001049)[&label="92/1/98"]:6.24E-4)[&label="100/1/100"]:0.003516,('Monodon monoceros':0.002459,'Delphinapterus leucas':0.001734)[&label="99.7/1/100"]:0.001491)[&label="98.7/1/100"]:0.001499,('Lipotes vexillifer':0.008496,((('Platanista gangetica':0.012703,(((((('Balaenoptera physalus':0.002374,'Megaptera novaeangliae':0.00366)[&label="46.6/0.665/88"]:7.07E-4,'Eschrichtius robustus':0.003619)[&label="88.9/1/95"]:0.001223,'Balaenoptera acutorostrata':0.005582)[&label="99.4/1/100"]:0.002348,'Eubalaena glacialis':0.006107)[&label="99.2/1/100"]:0.003054,('Bos taurus':0.049776,'Sus scrofa':0.048762)[&label="100/1/100"]:0.022428)[&label="92.2/0.998/97"]:0.001627,('Physeter catodon':0.00595,('Kogia breviceps':0.004887,'Kogia sima':0.0043)[&label="100/1/100"]:0.007831)[&label="100/1/100"]:0.00653)[&label="89.6/1/82"]:7.6E-4)[&label="59.4/0.93/74"]:7.51E-4,(('Hyperoodon ampullatus':0.002678,'Mesoplodon densirostris':0.003076)[&label="97.9/1/100"]:0.001805,'Ziphius cavirostris':0.004259)[&label="100/1/100"]:0.007066)[&label="100/1/100"]:0.006343,('Pontoporia blainvillei':0.008147,'Inia geoffrensis':0.006627)[&label="99.3/1/100"]:0.002868)[&label="49.3/0.926/79"]:7.57E-4)[&label="100/1/100"]:0.003727)[&label="100/1/100"]:0.007127)[&label="92.2/1/97"]:5.2E-4)[&label="43.8/0.883/63"]:1.71E-4,'Sousa chinensis':0.001191)[&label="90.8/1/88"]:5.73E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=139;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Avenir Next";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

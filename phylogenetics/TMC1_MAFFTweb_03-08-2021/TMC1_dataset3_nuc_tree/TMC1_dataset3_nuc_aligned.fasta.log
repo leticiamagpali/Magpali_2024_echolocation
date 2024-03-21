@@ -1,0 +1,276 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s TMC1_dataset3_nuc_aligned.fasta -st DNA -m TEST -bb 10000 -alrt 5000 -abayes
+Seed:    308299 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 23 22:52:55 2022
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TMC1_dataset3_nuc_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 44 sequences with 2286 columns, 329 distinct patterns
+119 parsimony-informative, 156 singleton sites, 2011 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  Stenella_attenuata_TMC1                            23.05%    passed     84.40%
+   2  Sousa_chinensis_TMC1                               23.05%    passed     82.11%
+   3  Orcaella_heinsohni_TMC1                            23.05%    passed     84.40%
+   4  Cephalorhynchus_heavisidii_TMC1                    23.05%    passed     83.22%
+   5  Lagenorhynchus_obscurus_TMC1                       23.71%    passed     82.73%
+   6  Pontoporia_blainvillei_TMC1                        23.49%    passed     81.89%
+   7  Cephalorhynchus_commersonii_TMC1                   27.73%    passed     95.39%
+   8  Inia_geoffrensis_TMC1                              30.71%    passed     92.23%
+   9  Mesoplodon_densirostris_TMC1                       31.01%    passed     87.17%
+  10  Kogia_sima_TMC1                                    28.52%    passed     95.48%
+  11  Eubalaena_glacialis_TMC1                           23.32%    passed     72.45%
+  12  Tursiops_aduncus_TMC1                              16.71%    passed     95.59%
+  13  Delphinus_delphis_TMC1                             16.71%    passed     97.72%
+  14  Orcaella_brevirostris_TMC1                         16.71%    passed     97.72%
+  15  Feresa_attenuata_TMC1                              16.71%    passed     97.20%
+  16  Peponocephala_electra_TMC1                         16.71%    passed     97.76%
+  17  Grampus_griseus_TMC1                               16.71%    passed     98.23%
+  18  Lissodelphis_peronii_TMC1                          16.80%    passed     96.56%
+  19  Lagenorhynchus_australis_TMC1                      16.80%    passed     96.56%
+  20  Hyperoodon                                         16.93%    passed     87.42%
+  21  Kogia_breviceps_TMC1                               16.75%    passed     95.28%
+  22  Eschrichtius_robustus_TMC1                         16.80%    passed     86.98%
+  23  Phocoena_spinipinnis_TMC1                          26.82%    passed     94.34%
+  24  Phocoena_phocoena_TMC1                             21.39%    passed     99.12%
+  25  Ziphius_cavirostris_TMC1                           24.58%    passed     92.93%
+  26  Tursiops_truncatus_TMC1                             0.00%    passed     70.53%
+  27  Lagenorhynchus_obliquidens_TMC1                     0.00%    passed     70.62%
+  28  Globicephala_melas_TMC1                             0.00%    passed     69.02%
+  29  Orcinus_orca_TMC1                                   0.04%    passed     70.66%
+  30  Sotalia_guianensis_TMC1                             5.77%    passed     99.37%
+  31  Sotalia_fluviatilis_TMC1                            5.77%    passed     99.41%
+  32  Phocoena_sinus_TMC1                                 0.00%    passed     69.37%
+  33  Neophocaena_asiaeorientalis_asiaeorientalis_TMC1    0.00%    passed     66.93%
+  34  Monodon_monoceros_TMC1                              0.00%    passed     63.74%
+  35  Delphinapterus_leucas_TMC1                          4.86%    passed     91.76%
+  36  Lipotes_vexillifer_TMC1                             4.86%    passed     88.86%
+  37  Physeter_catodon_TMC1                               0.04%    passed     71.71%
+  38  Balaenoptera_physalus_TMC1                         20.17%    failed      1.13%
+  39  Balaenoptera_acutorostrata_TMC1                     0.00%    passed     74.89%
+  40  Platanista_gangetica_TMC1                           9.32%    passed     56.49%
+  41  Neophocaena_phocaenoides_TMC1                      11.59%    passed     82.68%
+  42  Bos_taurus_TMC1                                     0.13%    passed     78.38%
+  43  Sus_scrofa_TMC1                                     0.26%    passed     53.54%
+  44  Megaptera_novaeangliae_TMC1                        18.37%    passed     82.90%
+****  TOTAL                                              14.07%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Lagenorhynchus_australis_TMC1 is identical to Lissodelphis_peronii_TMC1 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 2286) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            5799.954     85  11769.908    11776.554    12257.346
+  2  JC+I          5710.034     86  11592.068    11598.873    12085.240
+  3  JC+G4         5710.974     86  11593.949    11600.754    12087.121
+  4  JC+I+G4       5706.500     87  11586.999    11593.965    12085.906
+  5  F81+F         5781.614     88  11739.228    11746.358    12243.869
+  6  F81+F+I       5693.089     89  11564.177    11571.472    12074.553
+  7  F81+F+G4      5693.850     89  11565.700    11572.995    12076.076
+  8  F81+F+I+G4    5689.452     90  11558.903    11566.365    12075.013
+  9  K2P           5686.383     86  11544.766    11551.571    12037.938
+ 10  K2P+I         5592.726     87  11359.452    11366.418    11858.359
+ 11  K2P+G4        5594.190     87  11362.380    11369.346    11861.287
+ 12  K2P+I+G4      5589.106     88  11354.211    11361.341    11858.852
+ 13  HKY+F         5667.601     89  11513.201    11520.496    12023.577
+ 14  HKY+F+I       5575.523     90  11331.046    11338.508    11847.156
+ 15  HKY+F+G4      5576.701     90  11333.402    11340.864    11849.512
+ 16  HKY+F+I+G4    5571.715     91  11325.430    11333.062    11847.275
+ 17  TNe           5684.634     87  11543.267    11550.234    12042.174
+ 18  TNe+I         5591.530     88  11359.061    11366.190    11863.702
+ 19  TNe+G4        5592.861     88  11361.723    11368.852    11866.364
+ 20  TNe+I+G4      5587.807     89  11353.613    11360.908    11863.989
+ 21  TN+F          5662.664     90  11505.328    11512.791    12021.439
+ 22  TN+F+I        5572.260     91  11326.520    11334.152    11848.365
+ 23  TN+F+G4       5573.158     91  11328.315    11335.947    11850.160
+ 24  TN+F+I+G4     5568.173     92  11320.346    11328.149    11847.926
+ 25  K3P           5686.365     87  11546.730    11553.697    12045.637
+ 26  K3P+I         5592.694     88  11361.388    11368.517    11866.029
+ 27  K3P+G4        5594.161     88  11364.323    11371.452    11868.964
+ 28  K3P+I+G4      5589.026     89  11356.052    11363.348    11866.428
+ 29  K3Pu+F        5667.547     90  11515.095    11522.557    12031.205
+ 30  K3Pu+F+I      5575.455     91  11332.910    11340.542    11854.755
+ 31  K3Pu+F+G4     5576.636     91  11335.273    11342.904    11857.118
+ 32  K3Pu+F+I+G4   5571.601     92  11327.201    11335.004    11854.781
+ 33  TPM2+F        5667.143     90  11514.287    11521.749    12030.397
+ 34  TPM2+F+I      5575.225     91  11332.449    11340.081    11854.294
+ 35  TPM2+F+G4     5576.391     91  11334.781    11342.413    11856.626
+ 36  TPM2+F+I+G4   5571.352     92  11326.703    11334.506    11854.283
+ 37  TPM2u+F       5667.143     90  11514.286    11521.749    12030.396
+ 38  TPM2u+F+I     5575.224     91  11332.449    11340.080    11854.294
+ 39  TPM2u+F+G4    5576.390     91  11334.781    11342.412    11856.625
+ 40  TPM2u+F+I+G4  5571.339     92  11326.677    11334.480    11854.257
+ 41  TPM3+F        5657.505     90  11495.010    11502.472    12011.120
+ 42  TPM3+F+I      5567.660     91  11317.321    11324.952    11839.166
+ 43  TPM3+F+G4     5568.459     91  11318.917    11326.549    11840.762
+ 44  TPM3+F+I+G4   5563.353     92  11310.705    11318.508    11838.284
+ 45  TPM3u+F       5657.505     90  11495.009    11502.471    12011.119
+ 46  TPM3u+F+I     5567.660     91  11317.320    11324.952    11839.165
+ 47  TPM3u+F+G4    5568.458     91  11318.917    11326.548    11840.762
+ 48  TPM3u+F+I+G4  5563.339     92  11310.678    11318.481    11838.257
+ 49  TIMe          5684.613     88  11545.226    11552.356    12049.867
+ 50  TIMe+I        5591.499     89  11360.998    11368.293    11871.373
+ 51  TIMe+G4       5592.831     89  11363.663    11370.958    11874.038
+ 52  TIMe+I+G4     5587.680     90  11355.359    11362.822    11871.470
+ 53  TIM+F         5662.611     91  11507.223    11514.855    12029.068
+ 54  TIM+F+I       5572.196     92  11328.392    11336.195    11855.971
+ 55  TIM+F+G4      5573.094     92  11330.188    11337.991    11857.767
+ 56  TIM+F+I+G4    5568.014     93  11322.028    11330.005    11855.342
+ 57  TIM2e         5683.798     88  11543.595    11550.725    12048.236
+ 58  TIM2e+I       5590.784     89  11359.567    11366.862    11869.943
+ 59  TIM2e+G4      5592.101     89  11362.202    11369.497    11872.577
+ 60  TIM2e+I+G4    5586.921     90  11353.841    11361.303    11869.951
+ 61  TIM2+F        5662.208     91  11506.416    11514.048    12028.261
+ 62  TIM2+F+I      5571.946     92  11327.891    11335.694    11855.471
+ 63  TIM2+F+G4     5572.830     92  11329.660    11337.463    11857.239
+ 64  TIM2+F+I+G4   5567.726     93  11321.452    11329.428    11854.766
+ 65  TIM3e         5678.150     88  11532.301    11539.430    12036.942
+ 66  TIM3e+I       5587.262     89  11352.524    11359.819    11862.900
+ 67  TIM3e+G4      5588.304     89  11354.608    11361.903    11864.984
+ 68  TIM3e+I+G4    5583.147     90  11346.294    11353.757    11862.405
+ 69  TIM3+F        5652.556     91  11487.113    11494.744    12008.957
+ 70  TIM3+F+I      5564.376     92  11312.753    11320.556    11840.332
+ 71  TIM3+F+G4     5564.930     92  11313.861    11321.664    11841.440
+ 72  TIM3+F+I+G4   5559.617     93  11305.234    11313.210    11838.548
+ 73  TVMe          5679.059     89  11536.119    11543.414    12046.495
+ 74  TVMe+I        5587.612     90  11355.225    11362.687    11871.335
+ 75  TVMe+G4       5588.756     90  11357.512    11364.975    11873.623
+ 76  TVMe+I+G4     5583.533     91  11349.066    11356.698    11870.911
+ 77  TVM+F         5657.042     92  11498.083    11505.886    12025.662
+ 78  TVM+F+I       5567.360     93  11320.721    11328.697    11854.035
+ 79  TVM+F+G4      5568.149     93  11322.298    11330.274    11855.612
+ 80  TVM+F+I+G4    5562.929     94  11313.859    11322.010    11852.907
+ 81  SYM           5677.308     90  11534.615    11542.078    12050.726
+ 82  SYM+I         5586.514     91  11355.028    11362.660    11876.873
+ 83  SYM+G4        5587.539     91  11357.078    11364.710    11878.923
+ 84  SYM+I+G4      5582.309     92  11348.618    11356.421    11876.197
+ 85  GTR+F         5652.092     93  11490.185    11498.161    12023.499
+ 86  GTR+F+I       5564.059     94  11316.119    11324.270    11855.167
+ 87  GTR+F+G4      5564.605     94  11317.209    11325.361    11856.258
+ 88  GTR+F+I+G4    5559.242     95  11308.484    11316.813    11853.267
+Akaike Information Criterion:           TIM3+F+I+G4
+Corrected Akaike Information Criterion: TIM3+F+I+G4
+Bayesian Information Criterion:         TPM3u+F+I+G4
+Best-fit model: TPM3u+F+I+G4 chosen according to BIC
+
+All model information printed to TMC1_dataset3_nuc_aligned.fasta.model.gz
+CPU time for ModelFinder: 2.948 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 3.187 seconds (0h:0m:3s)
+Generating 10000 samples for ultrafast bootstrap (seed: 308299)...
+
+NOTE: 14 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -5568.458
+Init pinv, alpha: 0.098, 1.000 / Estimate: 0.099, 0.107 / LogL: -5567.301
+Init pinv, alpha: 0.195, 1.000 / Estimate: 0.197, 0.161 / LogL: -5566.196
+Init pinv, alpha: 0.293, 1.000 / Estimate: 0.296, 0.225 / LogL: -5565.098
+Init pinv, alpha: 0.391, 1.000 / Estimate: 0.394, 0.313 / LogL: -5564.010
+Init pinv, alpha: 0.489, 1.000 / Estimate: 0.492, 0.451 / LogL: -5562.949
+Init pinv, alpha: 0.586, 1.000 / Estimate: 0.588, 0.709 / LogL: -5562.004
+Init pinv, alpha: 0.684, 1.000 / Estimate: 0.684, 1.370 / LogL: -5561.516
+Init pinv, alpha: 0.782, 1.000 / Estimate: 0.747, 2.877 / LogL: -5562.406
+Init pinv, alpha: 0.880, 1.000 / Estimate: 0.748, 2.905 / LogL: -5562.560
+Optimal pinv,alpha: 0.684, 1.370 / LogL: -5561.516
+
+Parameters optimization took 1.764 sec
+Computing ML distances based on estimated model parameters... 0.022 sec
+Computing BIONJ tree...
+0.051 seconds
+Log-likelihood of BIONJ tree: -5563.737
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.305 second
+Computing log-likelihood of 98 initial trees ... 1.377 seconds
+Current best score: -5555.290
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5555.234
+Iteration 10 / LogL: -5557.863 / Time: 0h:0m:7s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -5554.423
+Iteration 20 / LogL: -5560.120 / Time: 0h:0m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -5554.423 / CPU time: 9.319
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -5554.214
+BETTER TREE FOUND at iteration 30: -5554.207
+Iteration 30 / LogL: -5554.207 / Time: 0h:0m:16s (0h:0m:56s left)
+UPDATE BEST LOG-LIKELIHOOD: -5554.207
+Iteration 40 / LogL: -5562.472 / Time: 0h:0m:21s (0h:0m:49s left)
+Iteration 50 / LogL: -5556.509 / Time: 0h:0m:25s (0h:0m:41s left)
+Log-likelihood cutoff on original alignment: -5596.966
+UPDATE BEST LOG-LIKELIHOOD: -5554.201
+UPDATE BEST LOG-LIKELIHOOD: -5554.200
+UPDATE BEST LOG-LIKELIHOOD: -5554.199
+Iteration 60 / LogL: -5554.205 / Time: 0h:0m:31s (0h:0m:37s left)
+Iteration 70 / LogL: -5554.201 / Time: 0h:0m:35s (0h:0m:31s left)
+Iteration 80 / LogL: -5554.202 / Time: 0h:0m:40s (0h:0m:25s left)
+Iteration 90 / LogL: -5554.203 / Time: 0h:0m:44s (0h:0m:20s left)
+Iteration 100 / LogL: -5587.273 / Time: 0h:0m:49s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -5596.966
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -5554.203 / Time: 0h:0m:54s (0h:0m:45s left)
+Iteration 120 / LogL: -5554.205 / Time: 0h:0m:59s (0h:0m:40s left)
+Iteration 130 / LogL: -5554.204 / Time: 0h:1m:3s (0h:0m:34s left)
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 0h:1m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5554.199
+Optimal log-likelihood: -5554.199
+Rate parameters:  A-C: 2.46400  A-G: 9.39775  A-T: 1.00000  C-G: 2.46400  C-T: 9.39775  G-T: 1.00000
+Base frequencies:  A: 0.286  C: 0.196  G: 0.248  T: 0.270
+Proportion of invariable sites: 0.683
+Gamma shape alpha: 1.324
+Parameters optimization took 1 rounds (0.024 sec)
+BEST SCORE FOUND : -5554.199
+
+Testing tree branches by SH-like aLRT with 5000 replicates...
+Testing tree branches by aBayes parametric test...
+7.779 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file TMC1_dataset3_nuc_aligned.fasta.splits.nex
+Total tree length: 0.193
+
+Total number of iterations: 131
+CPU time used for tree search: 61.256 sec (0h:1m:1s)
+Wall-clock time used for tree search: 61.819 sec (0h:1m:1s)
+Total CPU time used: 72.518 sec (0h:1m:12s)
+Total wall-clock time used: 73.406 sec (0h:1m:13s)
+
+Computing bootstrap consensus tree...
+Reading input file TMC1_dataset3_nuc_aligned.fasta.splits.nex...
+44 taxa and 547 splits.
+Consensus tree written to TMC1_dataset3_nuc_aligned.fasta.contree
+Reading input trees file TMC1_dataset3_nuc_aligned.fasta.contree
+Log-likelihood of consensus tree: -5557.146
+
+Analysis results written to: 
+  IQ-TREE report:                TMC1_dataset3_nuc_aligned.fasta.iqtree
+  Maximum-likelihood tree:       TMC1_dataset3_nuc_aligned.fasta.treefile
+  Likelihood distances:          TMC1_dataset3_nuc_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          TMC1_dataset3_nuc_aligned.fasta.splits.nex
+  Consensus tree:                TMC1_dataset3_nuc_aligned.fasta.contree
+  Screen log file:               TMC1_dataset3_nuc_aligned.fasta.log
+
+Date and Time: Fri Sep 23 22:54:12 2022

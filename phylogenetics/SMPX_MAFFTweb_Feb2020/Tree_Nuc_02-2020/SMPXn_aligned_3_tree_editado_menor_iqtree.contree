@@ -1,0 +1,168 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=66;
+	taxlabels
+	'Anas platyrhynchos'
+	'Anolis carolinensis'
+	'Aquila chrysaetos canadensis'
+	'Balaenoptera acutorostrata scammoni'[&!color=#e91b0d]
+	'Bos taurus'[&!name="Cow"]
+	'Bubalus bubalis'
+	'Calidris pugnax'
+	'Camelus dromedarius'[&!name="Dromedary"]
+	'Canis lupus familiaris'
+	'Capra hircus'[&!name="Goat"]
+	'Castor canadensis'[&!name="Beaver"]
+	'Cavia porcellus'
+	'Cebus capucinus imitator'
+	'Cercocebus atys'
+	'Dasypus novemcinctus'[&!name="Armadillo"]
+	'Delphinapterus leucas'
+	'Desmodus rotundus'[&!name="Vampire bat"]
+	'Eptesicus fuscus'
+	'Equus asinus'
+	'Equus caballus'
+	'Equus przewalskii'
+	'Fukomys damarensis'
+	'Globicephala melas'
+	'Heterocephalus glaber'
+	'Hipposideros armiger'
+	'Homo sapiens'
+	'Lagenorhynchus obliquidens'
+	'Lepidothrix coronata'
+	'Lipotes vexillifer'[&!color=#0070ff]
+	'Loxodonta africana'[&!name="African Bush Elephant"]
+	'Macaca mulatta'
+	'Manacus vitellinus'
+	'Microcebus murinus'[&!name="Gray mouse bat"]
+	'Miniopterus natalensis'[&!name="Natal long-fingered bat"]
+	'Monodelphis domestica'
+	'Monodon monoceros'
+	'Mus musculus'
+	'Mustela putorius furo'
+	'Myotis brandtii'
+	'Myotis davidii'
+	'Myotis lucifugus'
+	'Nanorana parkeri'[&!name="Tibetan frog"]
+	'Neophocaena asiaeorientalis asiaeorientalis'
+	'Odobenus rosmarus divergens'
+	'Orcinus orca'
+	'Ornithorhynchus anatinus'[&!name="Platypus"]
+	'Otolemur garnettii'[&!name="Galago"]
+	'Ovis aries'
+	'Pan troglodytes'
+	'Panthera pardus'
+	'Phascolarctos cinereus'
+	'Physeter catodon'
+	'Pogona vitticeps'
+	'Pteropus alecto'
+	'Pteropus vampyrus'
+	'Python bivittatus'
+	'Rattus norvegicus'
+	'Rhinolophus sinicus'
+	'Rousettus aegyptiacus'
+	'Sarcophilus harrisii'
+	'Sotalia fluviatilis'[&!color=#0070ff]
+	'Sotalia guianensis'[&!color=#0070ff]
+	'Sus scrofa'[&!name="Pig"]
+	'Tursiops truncatus'
+	'Ursus maritimus'
+	'Xenopus tropicalis'[&!name="Tropical clawed frog"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Neophocaena asiaeorientalis asiaeorientalis':3.0E-6,('Delphinapterus leucas':3.0E-6,'Monodon monoceros':3.0E-6)[&label=100]:0.004324,((((('Tursiops truncatus':0.0,'Globicephala melas':0.0):0.0,'Lagenorhynchus obliquidens':0.0):3.0E-6,'Orcinus orca':3.0E-6)[&label=92]:3.0E-6,('Sotalia fluviatilis':3.0E-6,'Sotalia guianensis':3.0E-6)[&label=100]:0.008819)[&label=99]:0.004325,('Lipotes vexillifer':3.0E-6,('Physeter catodon':0.004367,('Balaenoptera acutorostrata scammoni':0.008801,((('Bos taurus'[&!name="Artiodactyla"]:0.008867,'Bubalus bubalis'[&!name="Artiodactyla"]:0.013562)[&label=98,!name="Artiodactyla"]:0.008898,('Ovis aries'[&!name="Artiodactyla"]:3.0E-6,'Capra hircus'[&!name="Artiodactyla"]:0.008843)[&label=89,!name="Artiodactyla"]:3.0E-6)[&label=98,!name="Artiodactyla",!collapse={"collapsed",0.2233250000000001}]:0.013297,(((('Rhinolophus sinicus'[&!name="Bats (clade 1)"]:0.008814,('Hipposideros armiger'[&!name="Bats (clade 1)"]:0.004441,(('Pteropus alecto'[&!name="Bats (clade 1)"]:3.0E-6,'Pteropus vampyrus'[&!name="Bats (clade 1)"]:3.0E-6)[&label=100,!name="Bats (clade 1)"]:0.012697,'Rousettus aegyptiacus'[&!name="Bats (clade 1)"]:0.021038)[&label=100,!name="Bats (clade 1)"]:0.026513)[&label=86,!name="Bats (clade 1)"]:0.004179)[&label=83,!name="Bats (clade 1)",!collapse={"collapsed",0.21628900000000018}]:0.004507,(((((('Desmodus rotundus':0.012055,'Microcebus murinus':0.046168)[&label=24]:0.011047,((('Castor canadensis':0.025919,(('Equus caballus'[&!name="Equidae"]:3.0E-6,'Equus przewalskii'[&!name="Equidae"]:3.0E-6)[&label=97,!name="Equidae"]:0.003139,'Equus asinus'[&!name="Equidae"]:0.001192)[&label=99,!name="Equidae",!collapse={"collapsed",0.23320400000000008}]:0.025632)[&label=45]:0.008825,((('Homo sapiens'[&!name="Primates"]:3.0E-6,'Pan troglodytes'[&!name="Primates"]:3.0E-6)[&label=95,!name="Primates"]:0.006614,('Macaca mulatta'[&!name="Primates"]:3.0E-6,'Cercocebus atys'[&!name="Primates"]:3.0E-6)[&label=99,!name="Primates"]:0.006508)[&label=70,!name="Primates"]:0.008187,'Cebus capucinus imitator'[&!name="Primates"]:0.035756)[&label=99,!name="Primates",!collapse={"collapsed",0.19993300000000003}]:0.035114)[&label=12]:2.0E-6,(('Cavia porcellus'[&!name="Rodents"]:0.008366,('Heterocephalus glaber'[&!name="Rodents"]:0.009898,'Fukomys damarensis'[&!name="Rodents"]:0.026382)[&label=96,!name="Rodents"]:0.013871)[&label=96,!name="Rodents"]:0.019674,('Mus musculus'[&!name="Rodents"]:0.007347,'Rattus norvegicus'[&!name="Rodents"]:0.108039)[&label=100,!name="Rodents"]:0.148364)[&label=83,!name="Rodents",!collapse={"collapsed",0.0}]:0.014402)[&label=14]:0.003328)[&label=10]:0.007207,('Otolemur garnettii':0.023924,(('Myotis lucifugus'[&!name="Bats (clade 2)"]:0.004324,('Myotis davidii'[&!name="Bats (clade 2)"]:3.0E-6,'Myotis brandtii'[&!name="Bats (clade 2)"]:3.0E-6)[&label=78,!name="Bats (clade 2)"]:3.0E-6)[&label=97,!name="Bats (clade 2)"]:0.008454,'Eptesicus fuscus'[&!name="Bats (clade 2)"]:0.018326)[&label=99,!name="Bats (clade 2)",!collapse={"collapsed",0.22965400000000014}]:0.025489)[&label=36]:0.007871)[&label=11]:3.0E-6,('Loxodonta africana':0.029516,((('Monodelphis domestica'[&!name="Marsupials"]:0.02771,'Phascolarctos cinereus'[&!name="Marsupials"]:0.019521)[&label=100,!name="Marsupials"]:0.011843,'Sarcophilus harrisii'[&!name="Marsupials"]:0.021007)[&label=98,!name="Marsupials",!collapse={"collapsed",0.31600700000000026}]:0.053098,('Ornithorhynchus anatinus':0.272616,((('Anas platyrhynchos'[&!name="Birds"]:0.018654,((('Manacus vitellinus'[&!name="Birds"]:0.008293,'Lepidothrix coronata'[&!name="Birds"]:3.0E-6)[&label=100,!name="Birds"]:0.025744,'Calidris pugnax'[&!name="Birds"]:0.004329)[&label=85,!name="Birds"]:0.004393,'Aquila chrysaetos canadensis'[&!name="Birds"]:0.008281)[&label=86,!name="Birds"]:0.008693)[&label=97,!name="Birds",!collapse={"collapsed",0.5082800000000001}]:0.079022,('Xenopus tropicalis':0.331488,'Nanorana parkeri':0.262182)[&label=99]:0.27939)[&label=88]:0.079017,(('Python bivittatus'[&!name="Reptiles"]:0.19098,'Anolis carolinensis'[&!name="Reptiles"]:0.03148)[&label=99,!name="Reptiles"]:0.030017,'Pogona vitticeps'[&!name="Reptiles"]:0.071015)[&label=100,!name="Reptiles",!collapse={"collapsed",0.1945410000000003}]:0.13987)[&label=90]:0.060661)[&label=94]:0.086089)[&label=99]:0.115025)[&label=43]:0.01229)[&label=29]:0.003656,'Dasypus novemcinctus':0.057439)[&label=37]:0.005159,'Miniopterus natalensis':0.031838)[&label=72]:2.0E-6)[&label=73]:0.00466,(('Canis lupus familiaris'[&!name="Carnivora"]:0.008824,('Mustela putorius furo'[&!name="Carnivora"]:0.032561,('Ursus maritimus'[&!name="Carnivora"]:0.018386,'Odobenus rosmarus divergens'[&!name="Carnivora"]:0.032473)[&label=92,!name="Carnivora"]:0.00834)[&label=98,!name="Carnivora"]:0.019183)[&label=99,!name="Carnivora"]:0.01366,'Panthera pardus'[&!name="Carnivora"]:0.023124)[&label=98,!name="Carnivora",!collapse={"collapsed",0.17109700000000017}]:0.023113)[&label=57]:0.004093,('Camelus dromedarius':0.037471,'Sus scrofa':0.077521)[&label=57]:0.00432)[&label=89]:0.004691)[&label=98]:0.008685)[&label=77]:3.0E-6)[&label=33]:3.0E-6)[&label=99]:0.004324)[&label=86]:3.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=7.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#fcfcfd;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="aakar";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=1000;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="aakar";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=6.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=36.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=7.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Lucida Sans";
+	set tipLabels.fontSize=35;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

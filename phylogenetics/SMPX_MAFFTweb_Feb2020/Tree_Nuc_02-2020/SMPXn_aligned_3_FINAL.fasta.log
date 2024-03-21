@@ -1,0 +1,328 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s SMPXn_aligned_5_FINAL.fasta -st DNA -m TEST -bb 1000 -alrt 1000
+Seed:    340849 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Mar  1 19:39:26 2020
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file SMPXn_aligned_5_FINAL.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 66 sequences with 285 columns, 172 distinct patterns
+128 parsimony-informative, 28 singleton sites, 129 constant sites
+                                                                               Gap/Ambiguity  Composition  p-value
+   1  PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA                  8.42%    passed     98.82%
+   2  PREDICTED_Delphinapterus_leucas_SMPX_mRNA                                        8.42%    passed     97.64%
+   3  PREDICTED_Monodon_monoceros_SMPX_mRNA                                            8.42%    passed     97.64%
+   4  PREDICTED_Tursiops_truncatus_SMPX_mRNA                                           8.42%    passed     99.75%
+   5  PREDICTED_Orcinus_orca_SMPX_mRNA                                                 8.42%    passed     99.75%
+   6  PREDICTED_Lagenorhynchus_obliquidens_SMPX_mRNA                                   8.42%    passed     99.75%
+   7  PREDICTED_Globicephala_melas_SMPX_mRNA                                           8.42%    passed     99.75%
+   8  PREDICTED_Lipotes_vexillifer_SMPX_mRNA                                           8.42%    passed     98.89%
+   9  PREDICTED_Physeter_catodon_SMPX_transcript_variant_X1_mRNA                       8.42%    passed     98.96%
+  10  PREDICTED_Balaenoptera_acutorostrata_scammoni_SMPX_transcript_variant_X1_mRNA    8.42%    passed     96.99%
+  11  Bos_taurus_SMPX_mRNA                                                             8.42%    passed     97.89%
+  12  PREDICTED_Bubalus_bubalis_SMPX_mRNA                                              8.42%    passed     98.89%
+  13  PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA                    8.42%    passed     95.34%
+  14  PREDICTED_Hipposideros_armiger_SMPX_transcript_variant_X1_mRNA                   8.42%    passed     92.60%
+  15  PREDICTED_Desmodus_rotundus_SMPX_mRNA                                            8.42%    passed     98.33%
+  16  Pteropus_alecto_SMPX_mRNA                                                        8.42%    passed     97.89%
+  17  PREDICTED_Pteropus_vampyrus_SMPX_mRNA                                            8.42%    passed     97.89%
+  18  PREDICTED_Rousettus_aegyptiacus_SMPX_transcript_variant_X2_mRNA                  8.42%    passed     93.82%
+  19  PREDICTED_Miniopterus_natalensis_SMPX_mRNA                                       8.42%    passed     90.46%
+  20  PREDICTED_Camelus_dromedarius_SMPX_transcript_variant_X2_mRNA                    8.42%    passed     96.70%
+  21  PREDICTED_Otolemur_garnettii_SMPX_mRNA                                           8.42%    passed     99.79%
+  22  PREDICTED_Canis_lupus_familiaris_SMPX_transcript_variant_X1_mRNA                 8.42%    passed     45.58%
+  23  PREDICTED_Panthera_pardus_SMPX_transcript_variant_X1_mRNA                        8.42%    passed     85.59%
+  24  PREDICTED_Mustela_putorius_furo_SMPX_transcript_variant_X1_mRNA                  8.42%    passed     69.39%
+  25  PREDICTED_Ursus_maritimus_SMPX_mRNA                                              8.42%    passed     66.04%
+  26  PREDICTED_Odobenus_rosmarus_divergens_SMPX_transcript_variant_X1_mRNA            8.42%    passed     59.45%
+  27  PREDICTED_Castor_canadensis_SMPX_transcript_variant_X1_mRNA                      8.42%    passed     97.40%
+  28  PREDICTED_Equus_caballus_SMPX_mRNA                                               8.42%    passed     92.01%
+  29  PREDICTED_Equus_przewalskii_SMPX_mRNA                                            8.42%    passed     92.01%
+  30  PREDICTED_Equus_asinus_SMPX_mRNA                                                 8.42%    passed     88.12%
+  31  PREDICTED_Myotis_lucifugus_SMPX_mRNA                                             8.42%    passed     99.64%
+  32  PREDICTED_Myotis_davidii_SMPX_transcript_variant_X1_mRNA                         8.42%    passed     98.38%
+  33  PREDICTED_Myotis_brandtii_SMPX_transcript_variant_X1_mRNA                        8.42%    passed     98.38%
+  34  PREDICTED_Eptesicus_fuscus_SMPX_mRNA                                             8.42%    passed     91.36%
+  35  PREDICTED_Cavia_porcellus_SMPX_transcript_variant_X1_mRNA                        8.42%    passed     87.51%
+  36  PREDICTED_Heterocephalus_glaber_SMPX_mRNA                                        8.42%    passed     91.36%
+  37  PREDICTED_Fukomys_damarensis_SMPX_mRNA                                           8.42%    passed     91.20%
+  38  PREDICTED_Microcebus_murinus_SMPX_mRNA                                           8.42%    passed     94.68%
+  39  Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X                                     8.42%    passed     96.50%
+  40  PREDICTED_Pan_troglodytes_SMPX_transcript_variant_X2_mRNA                        8.42%    passed     96.50%
+  41  PREDICTED_Macaca_mulatta_SMPX_mRNA                                               8.42%    passed     87.81%
+  42  PREDICTED_Cercocebus_atys_SMPX_mRNA                                              8.42%    passed     87.81%
+  43  PREDICTED_Cebus_capucinus_imitator_SMPX_transcript_variant_X1_mRNA               8.42%    passed     81.62%
+  44  PREDICTED_Loxodonta_africana_SMPX_transcript_variant_X1_mRNA                     8.42%    passed     92.01%
+  45  PREDICTED_Dasypus_novemcinctus_SMPX_transcript_variant_X2_mRNA                   8.42%    passed     99.42%
+  46  Sotalia_fluviatilis_SMPX                                                         8.42%    passed     98.12%
+  47  Sotalia_guianensis_SMPX                                                          8.42%    passed     98.12%
+  48  PREDICTED_Ovis_aries_SMPX_transcript_variant_X1_mRNA                            10.53%    passed     87.90%
+  49  PREDICTED_Capra_hircus_SMPX_transcript_variant_X2_mRNA                          10.53%    passed     76.19%
+  50  Sus_scrofa_SMPX_mRNA_complete_cds                                                8.42%    passed     96.90%
+  51  Mus_musculus_SMPX_transcript_variant_2_mRNA                                      9.47%    passed     72.75%
+  52  Rattus_norvegicus_SMPX_mRNA_complete_cds                                         9.47%    passed     86.95%
+  53  PREDICTED_Monodelphis_domestica_SMPX_transcript_variant_X1_mRNA                  9.47%    passed     57.14%
+  54  PREDICTED_Sarcophilus_harrisii_SMPX_mRNA                                         9.47%    passed     75.19%
+  55  PREDICTED_Phascolarctos_cinereus_SMPX_transcript_variant_X1_mRNA                 6.32%    passed     92.78%
+  56  PREDICTED_Ornithorhynchus_anatinus_SMPX_mRNA                                     9.47%    failed      0.90%
+  57  PREDICTED_Anas_platyrhynchos_SMPX_transcript_variant_X6_mRNA                     6.32%    passed     83.86%
+  58  PREDICTED_Manacus_vitellinus_SMPX_transcript_variant_X1_mRNA                     5.26%    passed     81.09%
+  59  PREDICTED_Lepidothrix_coronata_SMPX_transcript_variant_X1_mRNA                   5.26%    passed     81.09%
+  60  PREDICTED_Calidris_pugnax_SMPX_transcript_variant_X2_mRNA                        5.26%    passed     87.25%
+  61  PREDICTED_Aquila_chrysaetos_canadensis_SMPX_transcript_variant_X3_mRNA           5.26%    passed     95.08%
+  62  PREDICTED_Python_bivittatus_SMPX_transcript_variant_X2_mRNA                      9.47%    passed     50.94%
+  63  PREDICTED_Anolis_carolinensis_SMPX_transcript_variant_X1_mRNA                    8.42%    passed     68.53%
+  64  PREDICTED_Pogona_vitticeps_SMPX_transcript_variant_X2_mRNA                       8.42%    passed     74.02%
+  65  Xenopus_tropicalis_SMPX_mRNA                                                     3.16%    passed     23.69%
+  66  PREDICTED_Nanorana_parkeri_SMPX_mRNA                                             7.37%    passed     58.37%
+****  TOTAL                                                                            8.23%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PREDICTED_Monodon_monoceros_SMPX_mRNA is identical to PREDICTED_Delphinapterus_leucas_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Orcinus_orca_SMPX_mRNA is identical to PREDICTED_Tursiops_truncatus_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Pteropus_vampyrus_SMPX_mRNA is identical to Pteropus_alecto_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Equus_przewalskii_SMPX_mRNA is identical to PREDICTED_Equus_caballus_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Myotis_brandtii_SMPX_transcript_variant_X1_mRNA is identical to PREDICTED_Myotis_davidii_SMPX_transcript_variant_X1_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Pan_troglodytes_SMPX_transcript_variant_X2_mRNA is identical to Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X but kept for subsequent analysis
+NOTE: PREDICTED_Cercocebus_atys_SMPX_mRNA is identical to PREDICTED_Macaca_mulatta_SMPX_mRNA but kept for subsequent analysis
+NOTE: Sotalia_guianensis_SMPX is identical to Sotalia_fluviatilis_SMPX but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PREDICTED_Lagenorhynchus_obliquidens_SMPX_mRNA (identical to PREDICTED_Tursiops_truncatus_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Globicephala_melas_SMPX_mRNA (identical to PREDICTED_Tursiops_truncatus_SMPX_mRNA) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to SMPXn_aligned_5_FINAL.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+NOTE: ModelFinder requires 2 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 285) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            3423.148     125 7096.295     7294.408     7552.856
+  2  JC+I          3251.662     126 6755.325     6957.882     7215.538
+  3  JC+G4         3209.898     126 6671.796     6874.353     7132.010
+  4  JC+I+G4       3203.245     127 6660.491     6867.573     7124.357
+  5  F81+F         3416.681     128 7089.361     7301.054     7556.880
+  6  F81+F+I       3247.124     129 6752.248     6968.635     7223.419
+  7  F81+F+G4      3209.101     129 6676.202     6892.589     7147.373
+  8  F81+F+I+G4    3202.080     130 6664.160     6885.329     7138.983
+  9  K2P           3280.088     126 6812.176     7014.733     7272.390
+ 10  K2P+I         3102.641     127 6459.282     6666.364     6923.148
+ 11  K2P+G4        3052.955     127 6359.910     6566.993     6823.776
+ 12  K2P+I+G4      3045.531     128 6347.062     6558.754     6814.580
+ 13  HKY+F         3277.200     129 6812.401     7028.788     7283.572
+ 14  HKY+F+I       3100.985     130 6461.969     6683.138     6936.793
+ 15  HKY+F+G4      3048.208     130 6356.416     6577.585     6831.240
+ 16  HKY+F+I+G4    3041.388     131 6344.776     6570.815     6823.252
+ 17  TNe           3276.980     127 6807.960     7015.043     7271.826
+ 18  TNe+I         3100.334     128 6456.668     6668.360     6924.187
+ 19  TNe+G4        3052.954     128 6361.909     6573.601     6829.427
+ 20  TNe+I+G4      3045.496     129 6348.991     6565.379     6820.163
+ 21  TN+F          3263.108     130 6786.217     7007.385     7261.040
+ 22  TN+F+I        3089.303     131 6440.605     6666.645     6919.082
+ 23  TN+F+G4       3045.343     131 6352.687     6578.726     6831.163
+ 24  TN+F+I+G4     3037.849     132 6339.699     6570.699     6821.827
+ 25  K3P           3279.355     127 6812.710     7019.792     7276.576
+ 26  K3P+I         3101.705     128 6459.409     6671.102     6926.928
+ 27  K3P+G4        3052.157     128 6360.314     6572.006     6827.833
+ 28  K3P+I+G4      3044.715     129 6347.429     6563.816     6818.600
+ 29  K3Pu+F        3275.881     130 6811.763     7032.932     7286.586
+ 30  K3Pu+F+I      3099.561     131 6461.123     6687.162     6939.599
+ 31  K3Pu+F+G4     3046.954     131 6355.908     6581.947     6834.384
+ 32  K3Pu+F+I+G4   3040.085     132 6344.171     6575.171     6826.299
+ 33  TPM2+F        3276.021     130 6812.041     7033.210     7286.865
+ 34  TPM2+F+I      3099.668     131 6461.336     6687.375     6939.812
+ 35  TPM2+F+G4     3048.143     131 6358.286     6584.326     6836.762
+ 36  TPM2+F+I+G4   3041.268     132 6346.536     6577.536     6828.664
+ 37  TPM2u+F       3276.021     130 6812.042     7033.210     7286.865
+ 38  TPM2u+F+I     3099.668     131 6461.336     6687.375     6939.812
+ 39  TPM2u+F+G4    3048.143     131 6358.286     6584.326     6836.762
+ 40  TPM2u+F+I+G4  3041.269     132 6346.537     6577.537     6828.666
+ 41  TPM3+F        3268.808     130 6797.617     7018.785     7272.440
+ 42  TPM3+F+I      3093.183     131 6448.367     6674.406     6926.843
+ 43  TPM3+F+G4     3043.509     131 6349.018     6575.057     6827.494
+ 44  TPM3+F+I+G4   3036.374     132 6336.748     6567.748     6818.876
+ 45  TPM3u+F       3268.808     130 6797.616     7018.785     7272.439
+ 46  TPM3u+F+I     3093.183     131 6448.365     6674.404     6926.841
+ 47  TPM3u+F+G4    3043.509     131 6349.018     6575.057     6827.494
+ 48  TPM3u+F+I+G4  3036.373     132 6336.746     6567.746     6818.874
+ 49  TIMe          3276.220     128 6808.439     7020.132     7275.958
+ 50  TIMe+I        3099.356     129 6456.712     6673.099     6927.883
+ 51  TIMe+G4       3052.155     129 6362.310     6578.697     6833.481
+ 52  TIMe+I+G4     3044.679     130 6349.357     6570.526     6824.181
+ 53  TIM+F         3261.732     131 6785.465     7011.504     7263.941
+ 54  TIM+F+I       3087.836     132 6439.671     6670.671     6921.800
+ 55  TIM+F+G4      3044.143     132 6352.286     6583.286     6834.414
+ 56  TIM+F+I+G4    3036.597     133 6339.194     6575.247     6824.975
+ 57  TIM2e         3273.667     128 6803.333     7015.026     7270.852
+ 58  TIM2e+I       3096.611     129 6451.221     6667.608     6922.392
+ 59  TIM2e+G4      3050.752     129 6359.505     6575.892     6830.676
+ 60  TIM2e+I+G4    3043.110     130 6346.221     6567.390     6821.045
+ 61  TIM2+F        3261.868     131 6785.735     7011.774     7264.211
+ 62  TIM2+F+I      3087.919     132 6439.838     6670.838     6921.967
+ 63  TIM2+F+G4     3045.221     132 6354.442     6585.442     6836.571
+ 64  TIM2+F+I+G4   3037.631     133 6341.263     6577.316     6827.044
+ 65  TIM3e         3272.656     128 6801.313     7013.005     7268.831
+ 66  TIM3e+I       3096.177     129 6450.354     6666.741     6921.525
+ 67  TIM3e+G4      3051.449     129 6360.898     6577.285     6832.069
+ 68  TIM3e+I+G4    3043.787     130 6347.574     6568.743     6822.398
+ 69  TIM3+F        3254.443     131 6770.886     6996.925     7249.362
+ 70  TIM3+F+I      3081.445     132 6426.889     6657.889     6909.018
+ 71  TIM3+F+G4     3040.513     132 6345.026     6576.026     6827.155
+ 72  TIM3+F+I+G4   3032.820     133 6331.639     6567.692     6817.420
+ 73  TVMe          3272.472     129 6802.944     7019.331     7274.115
+ 74  TVMe+I        3094.588     130 6449.175     6670.344     6923.999
+ 75  TVMe+G4       3048.734     130 6357.469     6578.637     6832.292
+ 76  TVMe+I+G4     3040.905     131 6343.811     6569.850     6822.287
+ 77  TVM+F         3267.351     132 6798.702     7029.702     7280.830
+ 78  TVM+F+I       3091.417     133 6448.833     6684.886     6934.615
+ 79  TVM+F+G4      3042.800     133 6351.600     6587.653     6837.381
+ 80  TVM+F+I+G4    3035.594     134 6339.189     6580.389     6828.622
+ 81  SYM           3269.192     130 6798.384     7019.553     7273.208
+ 82  SYM+I         3092.046     131 6446.091     6672.131     6924.567
+ 83  SYM+G4        3048.740     131 6359.481     6585.520     6837.957
+ 84  SYM+I+G4      3040.874     132 6345.748     6576.748     6827.876
+ 85  GTR+F         3252.882     133 6771.764     7007.817     7257.545
+ 86  GTR+F+I       3079.522     134 6427.045     6668.245     6916.478
+ 87  GTR+F+G4      3039.734     134 6347.468     6588.668     6836.902
+ 88  GTR+F+I+G4    3031.948     135 6333.897     6580.340     6826.983
+Akaike Information Criterion:           TIM3+F+I+G4
+Corrected Akaike Information Criterion: K2P+I+G4
+Bayesian Information Criterion:         K2P+I+G4
+Best-fit model: K2P+I+G4 chosen according to BIC
+
+All model information printed to SMPXn_aligned_5_FINAL.fasta.model.gz
+CPU time for ModelFinder: 3.851 seconds (0h:0m:3s)
+Wall-clock time for ModelFinder: 3.993 seconds (0h:0m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 340849)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.431 / LogL: -3052.962
+Init pinv, alpha: 0.050, 1.000 / Estimate: 0.280, 0.862 / LogL: -3045.679
+Init pinv, alpha: 0.101, 1.000 / Estimate: 0.279, 0.857 / LogL: -3045.694
+Init pinv, alpha: 0.151, 1.000 / Estimate: 0.280, 0.860 / LogL: -3045.686
+Init pinv, alpha: 0.201, 1.000 / Estimate: 0.276, 0.846 / LogL: -3045.735
+Init pinv, alpha: 0.251, 1.000 / Estimate: 0.278, 0.853 / LogL: -3045.709
+Init pinv, alpha: 0.302, 1.000 / Estimate: 0.304, 0.948 / LogL: -3045.526
+Init pinv, alpha: 0.352, 1.000 / Estimate: 0.325, 1.033 / LogL: -3045.568
+Init pinv, alpha: 0.402, 1.000 / Estimate: 0.327, 1.045 / LogL: -3045.589
+Init pinv, alpha: 0.453, 1.000 / Estimate: 0.326, 1.037 / LogL: -3045.579
+Optimal pinv,alpha: 0.304, 0.948 / LogL: -3045.526
+
+Parameters optimization took 2.293 sec
+Computing ML distances based on estimated model parameters... 0.031 sec
+Computing BIONJ tree...
+0.033 seconds
+Log-likelihood of BIONJ tree: -3055.431
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.550 second
+Computing log-likelihood of 98 initial trees ... 1.274 seconds
+Current best score: -3045.526
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3040.629
+Iteration 10 / LogL: -3046.115 / Time: 0h:0m:5s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -3039.904
+Iteration 20 / LogL: -3039.904 / Time: 0h:0m:7s
+Finish initializing candidate tree set (19)
+Current best tree score: -3039.904 / CPU time: 4.766
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3039.916 / Time: 0h:0m:9s (0h:0m:29s left)
+Iteration 40 / LogL: -3040.499 / Time: 0h:0m:11s (0h:0m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -3039.057
+Iteration 50 / LogL: -3039.753 / Time: 0h:0m:13s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -3066.906
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -3037.890
+Iteration 60 / LogL: -3039.512 / Time: 0h:0m:16s (0h:0m:26s left)
+Iteration 70 / LogL: -3039.336 / Time: 0h:0m:18s (0h:0m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -3037.776
+Iteration 80 / LogL: -3037.899 / Time: 0h:0m:20s (0h:0m:24s left)
+UPDATE BEST LOG-LIKELIHOOD: -3037.776
+Iteration 90 / LogL: -3039.723 / Time: 0h:0m:23s (0h:0m:21s left)
+Iteration 100 / LogL: -3039.745 / Time: 0h:0m:25s (0h:0m:19s left)
+Log-likelihood cutoff on original alignment: -3067.878
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -3037.592
+Iteration 110 / LogL: -3040.083 / Time: 0h:0m:27s (0h:0m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -3036.618
+BETTER TREE FOUND at iteration 113: -3036.616
+BETTER TREE FOUND at iteration 116: -3036.615
+Iteration 120 / LogL: -3037.841 / Time: 0h:0m:30s (0h:0m:24s left)
+Iteration 130 / LogL: -3036.618 / Time: 0h:0m:32s (0h:0m:21s left)
+Iteration 140 / LogL: -3059.704 / Time: 0h:0m:35s (0h:0m:19s left)
+UPDATE BEST LOG-LIKELIHOOD: -3036.615
+Iteration 150 / LogL: -3052.755 / Time: 0h:0m:37s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -3068.122
+Iteration 160 / LogL: -3036.618 / Time: 0h:0m:40s (0h:0m:14s left)
+Iteration 170 / LogL: -3036.616 / Time: 0h:0m:42s (0h:0m:11s left)
+Iteration 180 / LogL: -3037.897 / Time: 0h:0m:44s (0h:0m:9s left)
+Iteration 190 / LogL: -3056.658 / Time: 0h:0m:47s (0h:0m:6s left)
+Iteration 200 / LogL: -3036.618 / Time: 0h:0m:49s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -3068.122
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 210 / LogL: -3036.616 / Time: 0h:0m:52s (0h:0m:22s left)
+UPDATE BEST LOG-LIKELIHOOD: -3036.615
+TREE SEARCH COMPLETED AFTER 217 ITERATIONS / Time: 0h:0m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3036.615
+Optimal log-likelihood: -3036.615
+Rate parameters:  A-C: 1.00000  A-G: 5.86272  A-T: 1.00000  C-G: 1.00000  C-T: 5.86272  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.308
+Gamma shape alpha: 0.939
+Parameters optimization took 1 rounds (0.021 sec)
+BEST SCORE FOUND : -3036.615
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.369 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file SMPXn_aligned_5_FINAL.fasta.splits.nex
+Total tree length: 3.581
+
+Total number of iterations: 217
+CPU time used for tree search: 50.550 sec (0h:0m:50s)
+Wall-clock time used for tree search: 51.210 sec (0h:0m:51s)
+Total CPU time used: 53.527 sec (0h:0m:53s)
+Total wall-clock time used: 54.427 sec (0h:0m:54s)
+
+Computing bootstrap consensus tree...
+Reading input file SMPXn_aligned_5_FINAL.fasta.splits.nex...
+64 taxa and 684 splits.
+Consensus tree written to SMPXn_aligned_5_FINAL.fasta.contree
+Reading input trees file SMPXn_aligned_5_FINAL.fasta.contree
+Log-likelihood of consensus tree: -3039.293
+
+Analysis results written to: 
+  IQ-TREE report:                SMPXn_aligned_5_FINAL.fasta.iqtree
+  Maximum-likelihood tree:       SMPXn_aligned_5_FINAL.fasta.treefile
+  Likelihood distances:          SMPXn_aligned_5_FINAL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          SMPXn_aligned_5_FINAL.fasta.splits.nex
+  Consensus tree:                SMPXn_aligned_5_FINAL.fasta.contree
+  Screen log file:               SMPXn_aligned_5_FINAL.fasta.log
+
+Date and Time: Sun Mar  1 19:40:25 2020

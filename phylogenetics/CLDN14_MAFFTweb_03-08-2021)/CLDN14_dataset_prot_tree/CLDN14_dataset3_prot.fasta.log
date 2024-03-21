@@ -1,0 +1,397 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s CLDN14_dataset3_prot.fasta -st AA -m TEST -bb 10000 -alrt 5000 -abayes
+Seed:    586167 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 23 22:54:39 2022
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file CLDN14_dataset3_prot.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 44 sequences with 243 columns, 138 distinct patterns
+23 parsimony-informative, 24 singleton sites, 196 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+   1  Stenella_attenuata_CLDN14                             3.29%    passed    100.00%
+   2  Sotalia_fluviatilis_CLDN14                            3.29%    passed    100.00%
+   3  Globicephala_melas_CLDN14                             3.29%    passed    100.00%
+   4  Lagenorhynchus_obscurus_CLDN14                        3.29%    passed    100.00%
+   5  Lagenorhynchus_obliquidens_CLDN14                     3.29%    passed    100.00%
+   6  Orcinus_orca_CLDN14                                   3.29%    passed    100.00%
+   7  Tursiops_truncatus_CLDN14                             3.29%    passed    100.00%
+   8  Sotalia_guianensis_CLDN14                             3.29%    passed    100.00%
+   9  Orcaella_heinsohni_CLDN14                             3.29%    passed    100.00%
+  10  Sousa_chinensis_CLDN14                                3.29%    passed    100.00%
+  11  Feresa_attenuata_CLDN14                               3.29%    passed    100.00%
+  12  Peponocephala_electra_CLDN14                          3.29%    passed    100.00%
+  13  Grampus_griseus_CLDN14                                3.29%    passed    100.00%
+  14  Orcaella_brevirostris_CLDN14                          3.29%    passed    100.00%
+  15  Delphinus_delphis_CLDN14                              3.29%    passed    100.00%
+  16  Phocoena_sinus_CLDN14                                 3.29%    passed    100.00%
+  17  Phocoena_phocoena_CLDN14                              3.29%    passed    100.00%
+  18  Neophocaena_asiaeorientalis_asiaeorientalis_CLDN14    3.29%    passed    100.00%
+  19  Neophocaena_phocaenoides_CLDN14                       3.29%    passed    100.00%
+  20  Monodon_monoceros_CLDN14                              3.29%    passed    100.00%
+  21  Delphinapterus_leucas_CLDN14                          3.29%    passed    100.00%
+  22  Pontoporia_blainvillei_CLDN14                         3.29%    passed    100.00%
+  23  Lipotes_vexillifer_CLDN14                             3.29%    passed    100.00%
+  24  Cephalorhynchus_heavisidii_CLDN14                    29.63%    passed     99.96%
+  25  Lagenorhynchus_australis_CLDN14                      28.81%    passed     99.92%
+  26  Tursiops_aduncus_CLDN14                              34.16%    passed     99.94%
+  27  Lissodelphis_peronii_CLDN14                          39.09%    passed     99.77%
+  28  Cephalorhynchus_commersonii_CLDN14                   45.68%    passed     99.08%
+  29  Mesoplodon_densirostris_CLDN14                        3.29%    passed    100.00%
+  30  Hyperoodon_ampullatus_CLDN14                          3.29%    passed    100.00%
+  31  Ziphius_cavirostris_CLDN14                            3.29%    passed    100.00%
+  32  Platanista_gangetica_CLDN14                           3.29%    passed    100.00%
+  33  Physeter_catodon_CLDN14                               3.29%    passed    100.00%
+  34  Kogia_breviceps_CLDN14                                3.29%    passed    100.00%
+  35  Kogia_sima_CLDN14                                     3.29%    passed    100.00%
+  36  Inia_geoffrensis_CLDN14                              44.86%    passed     99.22%
+  37  Balaenoptera_physalus_CLDN14                          3.29%    passed    100.00%
+  38  Balaenoptera_acutorostrata_CLDN14                     3.29%    passed    100.00%
+  39  Eubalaena_glacialis_CLDN14                            3.29%    passed    100.00%
+  40  Eschrichtius_robustus_CLDN14                         41.15%    passed     99.71%
+  41  Megaptera_novaeangliae_CLDN14                        11.93%    passed    100.00%
+  42  Sus_scrofa_CLDN14                                     1.65%    passed    100.00%
+  43  Phocoena_spinipinnis_CLDN14                          55.56%    passed     99.45%
+  44  Bos_taurus_CLDN14                                     2.88%    passed     95.41%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                10.09%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Sotalia_fluviatilis_CLDN14 is identical to Stenella_attenuata_CLDN14 but kept for subsequent analysis
+NOTE: Phocoena_phocoena_CLDN14 is identical to Phocoena_sinus_CLDN14 but kept for subsequent analysis
+NOTE: Delphinapterus_leucas_CLDN14 is identical to Monodon_monoceros_CLDN14 but kept for subsequent analysis
+NOTE: Lipotes_vexillifer_CLDN14 is identical to Pontoporia_blainvillei_CLDN14 but kept for subsequent analysis
+NOTE: Hyperoodon_ampullatus_CLDN14 is identical to Mesoplodon_densirostris_CLDN14 but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Globicephala_melas_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Lagenorhynchus_obscurus_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Lagenorhynchus_obliquidens_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Orcinus_orca_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Tursiops_truncatus_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Sotalia_guianensis_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Orcaella_heinsohni_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Sousa_chinensis_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Feresa_attenuata_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Peponocephala_electra_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Grampus_griseus_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Orcaella_brevirostris_CLDN14 (identical to Stenella_attenuata_CLDN14) is ignored but added at the end
+NOTE: Neophocaena_asiaeorientalis_asiaeorientalis_CLDN14 (identical to Phocoena_sinus_CLDN14) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to CLDN14_dataset3_prot.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+NOTE: ModelFinder requires 9 MB RAM!
+ModelFinder will test 168 protein models (sample size: 243) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       1158.556     59  2435.112     2473.801     2641.203
+  2  Dayhoff+I     1147.249     60  2414.498     2454.718     2624.082
+  3  Dayhoff+G4    1147.384     60  2414.768     2454.988     2624.352
+  4  Dayhoff+I+G4  1147.493     61  2416.986     2458.777     2630.063
+  5  Dayhoff+F     1131.841     78  2419.682     2494.829     2692.141
+  6  Dayhoff+F+I   1121.089     79  2400.178     2477.724     2676.129
+  7  Dayhoff+F+G4  1121.028     79  2400.056     2477.602     2676.008
+  8  Dayhoff+F+I+G4 1121.072     80  2402.145     2482.145     2681.590
+  9  mtMAM         1182.718     59  2483.437     2522.125     2689.527
+ 10  mtMAM+I       1169.518     60  2459.035     2499.255     2668.619
+ 11  mtMAM+G4      1168.784     60  2457.568     2497.787     2667.151
+ 12  mtMAM+I+G4    1168.699     61  2459.397     2501.188     2672.474
+ 13  mtMAM+F       1133.440     78  2422.880     2498.026     2695.338
+ 14  mtMAM+F+I     1122.775     79  2403.550     2481.096     2679.502
+ 15  mtMAM+F+G4    1122.339     79  2402.678     2480.224     2678.630
+ 16  mtMAM+F+I+G4  1122.212     80  2404.423     2484.423     2683.868
+ 17  JTT           1144.587     59  2407.174     2445.862     2613.264
+ 18  JTT+I         1135.839     60  2391.677     2431.897     2601.261
+ 19  JTT+G4        1135.778     60  2391.556     2431.775     2601.139
+ 20  JTT+I+G4      1135.796     61  2393.592     2435.382     2606.669
+ 21  JTT+F         1119.528     78  2395.056     2470.203     2667.515
+ 22  JTT+F+I       1111.153     79  2380.306     2457.853     2656.258
+ 23  JTT+F+G4      1110.931     79  2379.861     2457.407     2655.813
+ 24  JTT+F+I+G4    1110.911     80  2381.821     2461.821     2661.266
+ 25  WAG           1149.226     59  2416.452     2455.140     2622.542
+ 26  WAG+I         1139.744     60  2399.488     2439.707     2609.071
+ 27  WAG+G4        1139.795     60  2399.589     2439.809     2609.173
+ 28  WAG+I+G4      1139.845     61  2401.691     2443.481     2614.767
+ 29  WAG+F         1122.990     78  2401.981     2477.127     2674.439
+ 30  WAG+F+I       1113.989     79  2385.978     2463.524     2661.930
+ 31  WAG+F+G4      1113.880     79  2385.759     2463.305     2661.711
+ 32  WAG+F+I+G4    1113.889     80  2387.777     2467.777     2667.222
+ 33  cpREV         1154.631     59  2427.261     2465.950     2633.352
+ 34  cpREV+I       1144.850     60  2409.699     2449.919     2619.283
+ 35  cpREV+G4      1144.581     60  2409.163     2449.382     2618.746
+ 36  cpREV+I+G4    1144.582     61  2411.165     2452.955     2624.241
+ 37  cpREV+F       1120.324     78  2396.648     2471.794     2669.107
+ 38  cpREV+F+I     1111.645     79  2381.291     2458.837     2657.243
+ 39  cpREV+F+G4    1111.183     79  2380.365     2457.911     2656.317
+ 40  cpREV+F+I+G4  1111.172     80  2382.344     2462.344     2661.789
+ 41  mtREV         1170.653     59  2459.305     2497.994     2665.396
+ 42  mtREV+I       1161.033     60  2442.066     2482.286     2651.650
+ 43  mtREV+G4      1160.858     60  2441.717     2481.937     2651.301
+ 44  mtREV+I+G4    1160.762     61  2443.525     2485.315     2656.602
+ 45  mtREV+F       1123.860     78  2403.720     2478.866     2676.179
+ 46  mtREV+F+I     1115.434     79  2388.868     2466.414     2664.820
+ 47  mtREV+F+G4    1115.203     79  2388.405     2465.951     2664.357
+ 48  mtREV+F+I+G4  1115.113     80  2390.225     2470.225     2669.670
+ 49  rtREV         1167.788     59  2453.575     2492.264     2659.666
+ 50  rtREV+I       1157.965     60  2435.930     2476.150     2645.514
+ 51  rtREV+G4      1157.804     60  2435.608     2475.828     2645.192
+ 52  rtREV+I+G4    1157.798     61  2437.596     2479.386     2650.673
+ 53  rtREV+F       1128.397     78  2412.794     2487.941     2685.253
+ 54  rtREV+F+I     1119.206     79  2396.413     2473.959     2672.365
+ 55  rtREV+F+G4    1119.079     79  2396.159     2473.705     2672.111
+ 56  rtREV+F+I+G4  1119.054     80  2398.108     2478.108     2677.553
+ 57  mtART         1185.139     59  2488.277     2526.966     2694.368
+ 58  mtART+I       1172.442     60  2464.885     2505.105     2674.469
+ 59  mtART+G4      1171.755     60  2463.510     2503.730     2673.093
+ 60  mtART+I+G4    1171.570     61  2465.139     2506.930     2678.216
+ 61  mtART+F       1131.256     78  2418.511     2493.658     2690.970
+ 62  mtART+F+I     1120.883     79  2399.766     2477.312     2675.718
+ 63  mtART+F+G4    1120.210     79  2398.420     2475.966     2674.372
+ 64  mtART+F+I+G4  1120.090     80  2400.179     2480.179     2679.624
+ 65  mtZOA         1156.604     59  2431.208     2469.896     2637.299
+ 66  mtZOA+I       1147.023     60  2414.046     2454.266     2623.630
+ 67  mtZOA+G4      1146.406     60  2412.812     2453.032     2622.396
+ 68  mtZOA+I+G4    1146.311     61  2414.621     2456.411     2627.698
+ 69  mtZOA+F       1120.136     78  2396.273     2471.419     2668.731
+ 70  mtZOA+F+I     1111.720     79  2381.441     2458.987     2657.393
+ 71  mtZOA+F+G4    1111.151     79  2380.302     2457.848     2656.254
+ 72  mtZOA+F+I+G4  1111.102     80  2382.204     2462.204     2661.649
+ 73  VT            1157.683     59  2433.366     2472.055     2639.457
+ 74  VT+I          1148.458     60  2416.916     2457.136     2626.500
+ 75  VT+G4         1148.459     60  2416.919     2457.138     2626.502
+ 76  VT+I+G4       1148.489     61  2418.977     2460.767     2632.054
+ 77  VT+F          1128.210     78  2412.419     2487.566     2684.878
+ 78  VT+F+I        1119.446     79  2396.891     2474.437     2672.843
+ 79  VT+F+G4       1119.329     79  2396.658     2474.204     2672.610
+ 80  VT+F+I+G4     1119.325     80  2398.650     2478.650     2678.095
+ 81  LG            1153.451     59  2424.901     2463.590     2630.992
+ 82  LG+I          1144.401     60  2408.802     2449.022     2618.386
+ 83  LG+G4         1144.272     60  2408.545     2448.764     2618.128
+ 84  LG+I+G4       1144.273     61  2410.546     2452.336     2623.623
+ 85  LG+F          1120.932     78  2397.865     2473.011     2670.324
+ 86  LG+F+I        1112.499     79  2382.997     2460.543     2658.949
+ 87  LG+F+G4       1112.258     79  2382.515     2460.061     2658.467
+ 88  LG+F+I+G4     1112.238     80  2384.477     2464.477     2663.922
+ 89  DCMut         1158.664     59  2435.328     2474.016     2641.418
+ 90  DCMut+I       1147.357     60  2414.715     2454.934     2624.298
+ 91  DCMut+G4      1147.493     60  2414.985     2455.205     2624.569
+ 92  DCMut+I+G4    1147.602     61  2417.205     2458.995     2630.281
+ 93  DCMut+F       1131.948     78  2419.895     2495.042     2692.354
+ 94  DCMut+F+I     1121.192     79  2400.384     2477.930     2676.336
+ 95  DCMut+F+G4    1121.133     79  2400.265     2477.811     2676.217
+ 96  DCMut+F+I+G4  1121.178     80  2402.355     2482.355     2681.800
+ 97  PMB           1158.758     59  2435.515     2474.204     2641.606
+ 98  PMB+I         1148.544     60  2417.087     2457.307     2626.671
+ 99  PMB+G4        1148.606     60  2417.212     2457.431     2626.795
+100  PMB+I+G4      1148.671     61  2419.341     2461.131     2632.418
+101  PMB+F         1136.161     78  2428.323     2503.469     2700.781
+102  PMB+F+I       1126.426     79  2410.852     2488.398     2686.804
+103  PMB+F+G4      1126.397     79  2410.795     2488.341     2686.746
+104  PMB+F+I+G4    1126.423     80  2412.846     2492.846     2692.291
+105  HIVb          1171.889     59  2461.779     2500.467     2667.870
+106  HIVb+I        1161.469     60  2442.938     2483.158     2652.521
+107  HIVb+G4       1161.246     60  2442.492     2482.712     2652.076
+108  HIVb+I+G4     1161.151     61  2444.302     2486.093     2657.379
+109  HIVb+F        1131.946     78  2419.891     2495.038     2692.350
+110  HIVb+F+I      1122.352     79  2402.705     2480.251     2678.657
+111  HIVb+F+G4     1121.986     79  2401.972     2479.518     2677.924
+112  HIVb+F+I+G4   1121.824     80  2403.648     2483.648     2683.093
+113  HIVw          1214.372     59  2546.743     2585.432     2752.834
+114  HIVw+I        1202.857     60  2525.714     2565.934     2735.298
+115  HIVw+G4       1202.716     60  2525.433     2565.653     2735.016
+116  HIVw+I+G4     1202.782     61  2527.564     2569.354     2740.641
+117  HIVw+F        1139.352     78  2434.704     2509.850     2707.163
+118  HIVw+F+I      1129.544     79  2417.088     2494.634     2693.040
+119  HIVw+F+G4     1129.162     79  2416.325     2493.871     2692.276
+120  HIVw+F+I+G4   1129.102     80  2418.204     2498.204     2697.649
+121  JTTDCMut      1144.567     59  2407.134     2445.823     2613.225
+122  JTTDCMut+I    1135.819     60  2391.638     2431.857     2601.221
+123  JTTDCMut+G4   1135.769     60  2391.537     2431.757     2601.121
+124  JTTDCMut+I+G4 1135.790     61  2393.580     2435.370     2606.656
+125  JTTDCMut+F    1119.407     78  2394.815     2469.961     2667.274
+126  JTTDCMut+F+I  1111.051     79  2380.103     2457.649     2656.055
+127  JTTDCMut+F+G4 1110.832     79  2379.665     2457.211     2655.617
+128  JTTDCMut+F+I+G4 1110.815     80  2381.629     2461.629     2661.074
+129  FLU           1174.947     59  2467.894     2506.582     2673.984
+130  FLU+I         1164.464     60  2448.928     2489.147     2658.511
+131  FLU+G4        1164.286     60  2448.572     2488.791     2658.155
+132  FLU+I+G4      1164.291     61  2450.582     2492.372     2663.659
+133  FLU+F         1126.570     78  2409.141     2484.287     2681.599
+134  FLU+F+I       1117.094     79  2392.188     2469.734     2668.140
+135  FLU+F+G4      1116.616     79  2391.232     2468.778     2667.184
+136  FLU+F+I+G4    1116.529     80  2393.059     2473.059     2672.504
+137  Blosum62      1164.019     59  2446.038     2484.727     2652.129
+138  Blosum62+I    1153.928     60  2427.856     2468.076     2637.440
+139  Blosum62+G4   1153.959     60  2427.919     2468.138     2637.502
+140  Blosum62+I+G4 1154.014     61  2430.029     2471.819     2643.106
+141  Blosum62+F    1134.238     78  2424.477     2499.623     2696.936
+142  Blosum62+F+I  1124.633     79  2407.265     2484.811     2683.217
+143  Blosum62+F+G4 1124.606     79  2407.211     2484.757     2683.163
+144  Blosum62+F+I+G4 1124.631     80  2409.263     2489.263     2688.708
+145  mtMet         1182.431     59  2482.862     2521.550     2688.952
+146  mtMet+I       1173.385     60  2466.771     2506.991     2676.355
+147  mtMet+G4      1173.009     60  2466.018     2506.238     2675.602
+148  mtMet+I+G4    1172.957     61  2467.915     2509.705     2680.991
+149  mtMet+F       1118.714     78  2393.427     2468.574     2665.886
+150  mtMet+F+I     1110.651     79  2379.301     2456.847     2655.253
+151  mtMet+F+G4    1110.302     79  2378.603     2456.149     2654.555
+152  mtMet+F+I+G4  1110.232     80  2380.464     2460.464     2659.909
+153  mtVer         1169.646     59  2457.293     2495.981     2663.383
+154  mtVer+I       1160.398     60  2440.795     2481.015     2650.379
+155  mtVer+G4      1159.751     60  2439.502     2479.722     2649.086
+156  mtVer+I+G4    1159.724     61  2441.448     2483.238     2654.525
+157  mtVer+F       1119.591     78  2395.182     2470.329     2667.641
+158  mtVer+F+I     1111.637     79  2381.274     2458.820     2657.226
+159  mtVer+F+G4    1111.136     79  2380.271     2457.817     2656.223
+160  mtVer+F+I+G4  1111.082     80  2382.163     2462.163     2661.608
+161  mtInv         1207.233     59  2532.465     2571.154     2738.556
+162  mtInv+I       1197.925     60  2515.849     2556.069     2725.433
+163  mtInv+G4      1197.694     60  2515.388     2555.608     2724.972
+164  mtInv+I+G4    1197.650     61  2517.299     2559.089     2730.376
+165  mtInv+F       1119.475     78  2394.950     2470.096     2667.409
+166  mtInv+F+I     1111.381     79  2380.762     2458.308     2656.714
+167  mtInv+F+G4    1111.017     79  2380.034     2457.580     2655.986
+168  mtInv+F+I+G4  1110.983     80  2381.967     2461.967     2661.411
+Akaike Information Criterion:           mtMet+F+G4
+Corrected Akaike Information Criterion: JTTDCMut+G4
+Bayesian Information Criterion:         JTTDCMut+G4
+Best-fit model: JTTDCMut+G4 chosen according to BIC
+
+All model information printed to CLDN14_dataset3_prot.fasta.model.gz
+CPU time for ModelFinder: 6.540 seconds (0h:0m:6s)
+Wall-clock time for ModelFinder: 6.748 seconds (0h:0m:6s)
+Generating 10000 samples for ultrafast bootstrap (seed: 586167)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1137.877
+2. Current log-likelihood: -1135.788
+Optimal log-likelihood: -1135.769
+Gamma shape alpha: 0.339
+Parameters optimization took 2 rounds (0.094 sec)
+Computing ML distances based on estimated model parameters... 0.140 sec
+Computing BIONJ tree...
+0.066 seconds
+Log-likelihood of BIONJ tree: -1133.321
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.156 second
+Computing log-likelihood of 98 initial trees ... 1.926 seconds
+Current best score: -1133.245
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1133.228
+BETTER TREE FOUND at iteration 2: -1133.219
+Iteration 10 / LogL: -1133.221 / Time: 0h:0m:4s
+Iteration 20 / LogL: -1133.228 / Time: 0h:0m:6s
+Finish initializing candidate tree set (20)
+Current best tree score: -1133.219 / CPU time: 6.158
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1133.222 / Time: 0h:0m:9s (0h:0m:24s left)
+Iteration 40 / LogL: -1133.350 / Time: 0h:0m:13s (0h:0m:20s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.219
+Iteration 50 / LogL: -1133.220 / Time: 0h:0m:16s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -1164.779
+UPDATE BEST LOG-LIKELIHOOD: -1133.219
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 60 / LogL: -1133.348 / Time: 0h:0m:20s (0h:0m:14s left)
+Iteration 70 / LogL: -1133.219 / Time: 0h:0m:23s (0h:0m:10s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 80 / LogL: -1133.219 / Time: 0h:0m:26s (0h:0m:7s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 90 / LogL: -1133.218 / Time: 0h:0m:30s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 91: -1133.218
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 100 / LogL: -1133.218 / Time: 0h:0m:33s (0h:0m:30s left)
+Log-likelihood cutoff on original alignment: -1165.961
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -1133.219 / Time: 0h:0m:37s (0h:0m:30s left)
+Iteration 120 / LogL: -1133.218 / Time: 0h:0m:41s (0h:0m:27s left)
+Iteration 130 / LogL: -1133.219 / Time: 0h:0m:44s (0h:0m:24s left)
+Iteration 140 / LogL: -1133.219 / Time: 0h:0m:47s (0h:0m:20s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 150 / LogL: -1133.326 / Time: 0h:0m:51s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -1165.961
+Iteration 160 / LogL: -1136.126 / Time: 0h:0m:54s (0h:0m:13s left)
+Iteration 170 / LogL: -1133.218 / Time: 0h:0m:58s (0h:0m:10s left)
+Iteration 180 / LogL: -1133.218 / Time: 0h:1m:1s (0h:0m:6s left)
+BETTER TREE FOUND at iteration 185: -1133.218
+Iteration 190 / LogL: -1136.610 / Time: 0h:1m:4s (0h:0m:32s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 200 / LogL: -1133.218 / Time: 0h:1m:7s (0h:0m:28s left)
+Log-likelihood cutoff on original alignment: -1165.761
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 210 / LogL: -1133.219 / Time: 0h:1m:11s (0h:0m:30s left)
+Iteration 220 / LogL: -1133.225 / Time: 0h:1m:15s (0h:0m:27s left)
+BETTER TREE FOUND at iteration 221: -1133.218
+Iteration 230 / LogL: -1133.218 / Time: 0h:1m:18s (0h:0m:31s left)
+Iteration 240 / LogL: -1140.980 / Time: 0h:1m:22s (0h:0m:27s left)
+Iteration 250 / LogL: -1133.218 / Time: 0h:1m:25s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -1167.999
+Iteration 260 / LogL: -1139.377 / Time: 0h:1m:29s (0h:0m:21s left)
+Iteration 270 / LogL: -1133.218 / Time: 0h:1m:32s (0h:0m:17s left)
+Iteration 280 / LogL: -1133.218 / Time: 0h:1m:35s (0h:0m:14s left)
+Iteration 290 / LogL: -1133.219 / Time: 0h:1m:39s (0h:0m:10s left)
+UPDATE BEST LOG-LIKELIHOOD: -1133.218
+Iteration 300 / LogL: -1133.218 / Time: 0h:1m:42s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -1168.633
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 310 / LogL: -1133.218 / Time: 0h:1m:46s (0h:0m:31s left)
+Iteration 320 / LogL: -1133.218 / Time: 0h:1m:49s (0h:0m:27s left)
+TREE SEARCH COMPLETED AFTER 322 ITERATIONS / Time: 0h:1m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1133.218
+Optimal log-likelihood: -1133.218
+Gamma shape alpha: 0.343
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -1133.218
+
+Testing tree branches by SH-like aLRT with 5000 replicates...
+Testing tree branches by aBayes parametric test...
+0.940 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file CLDN14_dataset3_prot.fasta.splits.nex
+Total tree length: 0.306
+
+Total number of iterations: 322
+CPU time used for tree search: 108.988 sec (0h:1m:48s)
+Wall-clock time used for tree search: 109.989 sec (0h:1m:49s)
+Total CPU time used: 110.960 sec (0h:1m:50s)
+Total wall-clock time used: 112.227 sec (0h:1m:52s)
+
+Computing bootstrap consensus tree...
+Reading input file CLDN14_dataset3_prot.fasta.splits.nex...
+31 taxa and 566 splits.
+Consensus tree written to CLDN14_dataset3_prot.fasta.contree
+Reading input trees file CLDN14_dataset3_prot.fasta.contree
+Log-likelihood of consensus tree: -1133.221
+
+Analysis results written to: 
+  IQ-TREE report:                CLDN14_dataset3_prot.fasta.iqtree
+  Maximum-likelihood tree:       CLDN14_dataset3_prot.fasta.treefile
+  Likelihood distances:          CLDN14_dataset3_prot.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CLDN14_dataset3_prot.fasta.splits.nex
+  Consensus tree:                CLDN14_dataset3_prot.fasta.contree
+  Screen log file:               CLDN14_dataset3_prot.fasta.log
+
+Date and Time: Fri Sep 23 22:56:39 2022

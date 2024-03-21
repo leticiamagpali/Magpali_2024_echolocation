@@ -1,0 +1,146 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	Balaenoptera_acutorostrata_CLDN14
+	Balaenoptera_physalus_CLDN14
+	Bos_taurus_CLDN14
+	Cephalorhynchus_commersonii_CLDN14
+	Cephalorhynchus_heavisidii_CLDN14
+	Delphinapterus_leucas_CLDN14
+	Delphinus_delphis_CLDN14
+	Eschrichtius_robustus_CLDN14
+	Eubalaena_glacialis_CLDN14
+	Feresa_attenuata_CLDN14
+	Globicephala_melas_CLDN14
+	Grampus_griseus_CLDN14
+	Hyperoodon_ampullatus_CLDN14
+	Inia_geoffrensis_CLDN14
+	Kogia_breviceps_CLDN14
+	Kogia_sima_CLDN14
+	Lagenorhynchus_australis_CLDN14
+	Lagenorhynchus_obliquidens_CLDN14
+	Lagenorhynchus_obscurus_CLDN14
+	Lipotes_vexillifer_CLDN14
+	Lissodelphis_peronii_CLDN14
+	Megaptera_novaeangliae_CLDN14
+	Mesoplodon_densirostris_CLDN14
+	Monodon_monoceros_CLDN14
+	Neophocaena_asiaeorientalis_asiaeorientalis_CLDN14
+	Neophocaena_phocaenoides_CLDN14
+	Orcaella_brevirostris_CLDN14
+	Orcaella_heinsohni_CLDN14
+	Orcinus_orca_CLDN14
+	Peponocephala_electra_CLDN14
+	Phocoena_phocoena_CLDN14
+	Phocoena_sinus_CLDN14
+	Phocoena_spinipinnis_CLDN14
+	Physeter_catodon_CLDN14
+	Platanista_gangetica_CLDN14
+	Pontoporia_blainvillei_CLDN14
+	Sotalia_fluviatilis_CLDN14
+	Sotalia_guianensis_CLDN14
+	Sousa_chinensis_CLDN14
+	Stenella_attenuata_CLDN14
+	Sus_scrofa_CLDN14
+	Tursiops_aduncus_CLDN14
+	Tursiops_truncatus_CLDN14
+	Ziphius_cavirostris_CLDN14
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Stenella_attenuata_CLDN14:0.001455,((((((((Sotalia_fluviatilis_CLDN14:0.0,Feresa_attenuata_CLDN14:0.0):0.0,Orcinus_orca_CLDN14:0.0):0.0,Lagenorhynchus_obscurus_CLDN14:0.0):0.0,Grampus_griseus_CLDN14:0.0):0.0,Peponocephala_electra_CLDN14:0.0):0.0,Lagenorhynchus_obliquidens_CLDN14:0.0):2.0E-6,(Globicephala_melas_CLDN14:2.0E-6,(Sousa_chinensis_CLDN14:2.0E-6,Orcaella_brevirostris_CLDN14:0.001452)[&label="85.1/0.995/95"]:0.001455)[&label="0/0.333/1"]:2.0E-6)[&label="0/0.333/0"]:2.0E-6,((Tursiops_truncatus_CLDN14:0.001456,Sotalia_guianensis_CLDN14:0.001455)[&label="0/0.333/6"]:2.0E-6,(Orcaella_heinsohni_CLDN14:0.001455,Delphinus_delphis_CLDN14:0.004389)[&label="0/0.333/39"]:2.0E-6)[&label="0/0.333/2"]:2.0E-6)[&label="0/0.333/0"]:1.0E-6,(((((((Phocoena_sinus_CLDN14:1.0E-6,Phocoena_phocoena_CLDN14:2.0E-6)[&label="0/0.333/81"]:2.0E-6,((Neophocaena_asiaeorientalis_asiaeorientalis_CLDN14:2.0E-6,Neophocaena_phocaenoides_CLDN14:0.004398)[&label="0/0.334/72"]:1.0E-6,Phocoena_spinipinnis_CLDN14:2.0E-6)[&label="0/0.414/70"]:0.001452)[&label="88.4/0.999/75"]:0.002953,(Monodon_monoceros_CLDN14:0.001456,Delphinapterus_leucas_CLDN14:2.0E-6)[&label="77/0.907/89"]:0.001457)[&label="92.5/1/95"]:0.004476,(((Pontoporia_blainvillei_CLDN14:0.002892,Inia_geoffrensis_CLDN14:0.002453)[&label="77.9/0.944/81"]:0.002966,Lipotes_vexillifer_CLDN14:0.001455)[&label="86.2/0.983/82"]:0.002957,(((Mesoplodon_densirostris_CLDN14:2.0E-6,(Ziphius_cavirostris_CLDN14:0.005873,Hyperoodon_ampullatus_CLDN14:0.001456)[&label="0/0.333/42"]:2.0E-6)[&label="94/1/96"]:0.00541,((Platanista_gangetica_CLDN14:0.003856,(Sus_scrofa_CLDN14:0.020325,Bos_taurus_CLDN14:0.088022)[&label="80.5/0.832/69"]:0.008084)[&label="67.9/0.827/55"]:0.002767,(((Balaenoptera_physalus_CLDN14:0.00298,Balaenoptera_acutorostrata_CLDN14:0.004483)[&label="0/0.333/29"]:2.0E-6,(Eschrichtius_robustus_CLDN14:2.0E-6,Megaptera_novaeangliae_CLDN14:0.004987)[&label="0/0.333/32"]:2.0E-6)[&label="94.6/1/98"]:0.00604,Eubalaena_glacialis_CLDN14:0.001428)[&label="98.6/1/99"]:0.01001)[&label="81.8/0.916/47"]:0.002779)[&label="2.02/0.469/32"]:0.001511,((Kogia_breviceps_CLDN14:0.005475,Kogia_sima_CLDN14:0.003868)[&label="98/1/97"]:0.010554,Physeter_catodon_CLDN14:0.001316)[&label="98.3/1/78"]:0.011125)[&label="86.2/0.993/85"]:0.00416)[&label="96.8/1/98"]:0.007502)[&label="0/0.353/75"]:0.001442,Lissodelphis_peronii_CLDN14:0.004433)[&label="0/0.333/56"]:2.0E-6,Cephalorhynchus_commersonii_CLDN14:2.0E-6)[&label="0/0.334/57"]:2.0E-6,((Cephalorhynchus_heavisidii_CLDN14:2.0E-6,Tursiops_aduncus_CLDN14:2.0E-6)[&label="0/0.333/87"]:2.0E-6,Lagenorhynchus_australis_CLDN14:2.0E-6)[&label="0/0.333/80"]:2.0E-6)[&label="0/0.333/65"]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Avenir Next";
+	set tipLabels.fontSize=20;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

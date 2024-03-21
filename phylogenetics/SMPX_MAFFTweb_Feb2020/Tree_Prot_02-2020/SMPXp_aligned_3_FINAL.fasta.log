@@ -1,0 +1,443 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s SMPXp_aligned_FINAL.fasta -st AA -m TEST -bb 1000 -alrt 1000
+Seed:    311608 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar  2 07:37:26 2020
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file SMPXp_aligned_FINAL.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 66 sequences with 94 columns, 69 distinct patterns
+35 parsimony-informative, 16 singleton sites, 43 constant sites
+                                                                               Gap/Ambiguity  Composition  p-value
+   1  PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA                  8.51%    passed    100.00%
+   2  PREDICTED_Tursiops_truncatus_SMPX_mRNA                                           8.51%    passed    100.00%
+   3  PREDICTED_Orcinus_orca_SMPX_mRNA                                                 8.51%    passed    100.00%
+   4  PREDICTED_Lagenorhynchus_obliquidens_SMPX_mRNA                                   8.51%    passed    100.00%
+   5  PREDICTED_Globicephala_melas_SMPX_mRNA                                           8.51%    passed    100.00%
+   6  PREDICTED_Lipotes_vexillifer_SMPX_mRNA                                           8.51%    passed    100.00%
+   7  PREDICTED_Physeter_catodon_SMPX_transcript_variant_X1_mRNA                       8.51%    passed    100.00%
+   8  Sotalia_fluviatilis_SMPX                                                         8.51%    passed    100.00%
+   9  Sotalia_guianensis_SMPX                                                          8.51%    passed    100.00%
+  10  PREDICTED_Delphinapterus_leucas_SMPX_mRNA                                        8.51%    passed    100.00%
+  11  PREDICTED_Monodon_monoceros_SMPX_mRNA                                            8.51%    passed    100.00%
+  12  PREDICTED_Balaenoptera_acutorostrata_scammoni_SMPX_transcript_variant_X1_mRNA    8.51%    passed    100.00%
+  13  Bos_taurus_SMPX_mRNA                                                             8.51%    passed    100.00%
+  14  PREDICTED_Bubalus_bubalis_SMPX_mRNA                                              8.51%    passed    100.00%
+  15  PREDICTED_Desmodus_rotundus_SMPX_mRNA                                            8.51%    passed    100.00%
+  16  PREDICTED_Microcebus_murinus_SMPX_mRNA                                           8.51%    passed    100.00%
+  17  PREDICTED_Castor_canadensis_SMPX_transcript_variant_X1_mRNA                      8.51%    passed    100.00%
+  18  PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA                    8.51%    passed    100.00%
+  19  PREDICTED_Hipposideros_armiger_SMPX_transcript_variant_X1_mRNA                   8.51%    passed    100.00%
+  20  PREDICTED_Miniopterus_natalensis_SMPX_mRNA                                       8.51%    passed    100.00%
+  21  PREDICTED_Otolemur_garnettii_SMPX_mRNA                                           8.51%    passed    100.00%
+  22  PREDICTED_Cavia_porcellus_SMPX_transcript_variant_X1_mRNA                        8.51%    passed    100.00%
+  23  PREDICTED_Heterocephalus_glaber_SMPX_mRNA                                        8.51%    passed    100.00%
+  24  PREDICTED_Fukomys_damarensis_SMPX_mRNA                                           8.51%    passed    100.00%
+  25  PREDICTED_Canis_lupus_familiaris_SMPX_transcript_variant_X1_mRNA                 8.51%    passed    100.00%
+  26  Pteropus_alecto_SMPX_mRNA                                                        8.51%    passed    100.00%
+  27  PREDICTED_Pteropus_vampyrus_SMPX_mRNA                                            8.51%    passed    100.00%
+  28  PREDICTED_Rousettus_aegyptiacus_SMPX_transcript_variant_X2_mRNA                  8.51%    passed    100.00%
+  29  PREDICTED_Dasypus_novemcinctus_SMPX_transcript_variant_X2_mRNA                   8.51%    passed    100.00%
+  30  Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X                                     8.51%    passed    100.00%
+  31  PREDICTED_Pan_troglodytes_SMPX_transcript_variant_X2_mRNA                        8.51%    passed    100.00%
+  32  PREDICTED_Macaca_mulatta_SMPX_mRNA                                               8.51%    passed    100.00%
+  33  PREDICTED_Cercocebus_atys_SMPX_mRNA                                              8.51%    passed    100.00%
+  34  PREDICTED_Mustela_putorius_furo_SMPX_transcript_variant_X1_mRNA                  8.51%    passed    100.00%
+  35  PREDICTED_Panthera_pardus_SMPX_transcript_variant_X1_mRNA                        8.51%    passed    100.00%
+  36  PREDICTED_Equus_caballus_SMPX_mRNA                                               8.51%    passed    100.00%
+  37  PREDICTED_Equus_przewalskii_SMPX_mRNA                                            8.51%    passed    100.00%
+  38  PREDICTED_Equus_asinus_SMPX_mRNA                                                 8.51%    passed    100.00%
+  39  PREDICTED_Loxodonta_africana_SMPX_transcript_variant_X1_mRNA                     8.51%    passed    100.00%
+  40  PREDICTED_Camelus_dromedarius_SMPX_transcript_variant_X2_mRNA                    8.51%    passed    100.00%
+  41  PREDICTED_Myotis_lucifugus_SMPX_mRNA                                             8.51%    passed     99.98%
+  42  PREDICTED_Myotis_davidii_SMPX_transcript_variant_X1_mRNA                         8.51%    passed    100.00%
+  43  PREDICTED_Myotis_brandtii_SMPX_transcript_variant_X1_mRNA                        8.51%    passed    100.00%
+  44  PREDICTED_Eptesicus_fuscus_SMPX_mRNA                                             8.51%    passed    100.00%
+  45  Sus_scrofa_SMPX_mRNA_complete_cds                                                8.51%    passed    100.00%
+  46  PREDICTED_Ovis_aries_SMPX_transcript_variant_X1_mRNA                            10.64%    passed    100.00%
+  47  PREDICTED_Capra_hircus_SMPX_transcript_variant_X2_mRNA                          10.64%    passed    100.00%
+  48  PREDICTED_Ursus_maritimus_SMPX_mRNA                                              8.51%    passed    100.00%
+  49  PREDICTED_Odobenus_rosmarus_divergens_SMPX_transcript_variant_X1_mRNA            8.51%    passed    100.00%
+  50  PREDICTED_Cebus_capucinus_imitator_SMPX_transcript_variant_X1_mRNA               8.51%    passed     99.99%
+  51  Mus_musculus_SMPX_transcript_variant_2_mRNA                                      9.57%    passed     98.22%
+  52  Rattus_norvegicus_SMPX_mRNA_complete_cds                                         9.57%    passed     99.80%
+  53  PREDICTED_Monodelphis_domestica_SMPX_transcript_variant_X1_mRNA                  9.57%    passed     99.97%
+  54  PREDICTED_Sarcophilus_harrisii_SMPX_mRNA                                         9.57%    passed    100.00%
+  55  PREDICTED_Phascolarctos_cinereus_SMPX_transcript_variant_X1_mRNA                 6.38%    passed     99.98%
+  56  PREDICTED_Ornithorhynchus_anatinus_SMPX_mRNA                                     9.57%    passed     99.94%
+  57  PREDICTED_Python_bivittatus_SMPX_transcript_variant_X2_mRNA                      9.57%    passed     97.93%
+  58  PREDICTED_Anolis_carolinensis_SMPX_transcript_variant_X1_mRNA                    8.51%    passed     98.62%
+  59  PREDICTED_Pogona_vitticeps_SMPX_transcript_variant_X2_mRNA                       8.51%    passed     99.96%
+  60  PREDICTED_Anas_platyrhynchos_SMPX_transcript_variant_X6_mRNA                     6.38%    failed      0.17%
+  61  PREDICTED_Manacus_vitellinus_SMPX_transcript_variant_X1_mRNA                     5.32%    failed      0.18%
+  62  PREDICTED_Lepidothrix_coronata_SMPX_transcript_variant_X1_mRNA                   5.32%    failed      0.20%
+  63  PREDICTED_Calidris_pugnax_SMPX_transcript_variant_X2_mRNA                        5.32%    failed      0.23%
+  64  PREDICTED_Aquila_chrysaetos_canadensis_SMPX_transcript_variant_X3_mRNA           5.32%    failed      0.14%
+  65  PREDICTED_Nanorana_parkeri_SMPX_mRNA                                             7.45%    passed     86.85%
+  66  Xenopus_tropicalis_SMPX_mRNA                                                     3.19%    passed     63.33%
+****  TOTAL                                                                            8.32%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PREDICTED_Tursiops_truncatus_SMPX_mRNA is identical to PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Physeter_catodon_SMPX_transcript_variant_X1_mRNA is identical to PREDICTED_Lipotes_vexillifer_SMPX_mRNA but kept for subsequent analysis
+NOTE: Sotalia_guianensis_SMPX is identical to Sotalia_fluviatilis_SMPX but kept for subsequent analysis
+NOTE: PREDICTED_Monodon_monoceros_SMPX_mRNA is identical to PREDICTED_Delphinapterus_leucas_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Desmodus_rotundus_SMPX_mRNA is identical to PREDICTED_Bubalus_bubalis_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Hipposideros_armiger_SMPX_transcript_variant_X1_mRNA is identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Pteropus_vampyrus_SMPX_mRNA is identical to Pteropus_alecto_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Pan_troglodytes_SMPX_transcript_variant_X2_mRNA is identical to Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X but kept for subsequent analysis
+NOTE: PREDICTED_Equus_przewalskii_SMPX_mRNA is identical to PREDICTED_Equus_caballus_SMPX_mRNA but kept for subsequent analysis
+NOTE: PREDICTED_Myotis_brandtii_SMPX_transcript_variant_X1_mRNA is identical to PREDICTED_Myotis_davidii_SMPX_transcript_variant_X1_mRNA but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PREDICTED_Orcinus_orca_SMPX_mRNA (identical to PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Lagenorhynchus_obliquidens_SMPX_mRNA (identical to PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Globicephala_melas_SMPX_mRNA (identical to PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Miniopterus_natalensis_SMPX_mRNA (identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Otolemur_garnettii_SMPX_mRNA (identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Cavia_porcellus_SMPX_transcript_variant_X1_mRNA (identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Heterocephalus_glaber_SMPX_mRNA (identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Fukomys_damarensis_SMPX_mRNA (identical to PREDICTED_Rhinolophus_sinicus_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Rousettus_aegyptiacus_SMPX_transcript_variant_X2_mRNA (identical to Pteropus_alecto_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Macaca_mulatta_SMPX_mRNA (identical to Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X) is ignored but added at the end
+NOTE: PREDICTED_Cercocebus_atys_SMPX_mRNA (identical to Homo_sapiens_SMPX_RefSeqGene_on_chromosome_X) is ignored but added at the end
+NOTE: PREDICTED_Equus_asinus_SMPX_mRNA (identical to PREDICTED_Equus_caballus_SMPX_mRNA) is ignored but added at the end
+NOTE: PREDICTED_Eptesicus_fuscus_SMPX_mRNA (identical to PREDICTED_Myotis_davidii_SMPX_transcript_variant_X1_mRNA) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to SMPXp_aligned_FINAL.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test 168 protein models (sample size: 94) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       1215.909     103 2637.817     24061.817    2899.776
+  2  Dayhoff+I     1174.351     104 2556.702     24396.702    2821.204
+  3  Dayhoff+G4    1153.490     104 2514.981     24354.981    2779.483
+  4  Dayhoff+I+G4  1152.751     105 2515.502     24775.502    2782.548
+  5  Dayhoff+F     1220.484     122 2684.968     32696.968    2995.250
+  6  Dayhoff+F+I   1182.277     123 2610.554     33114.554    2923.379
+  7  Dayhoff+F+G4  1161.702     123 2569.404     33073.404    2882.229
+  8  Dayhoff+F+I+G4 1161.024     124 2570.048     33570.048    2885.417
+  9  mtMAM         1281.106     103 2768.212     24192.212    3030.171
+ 10  mtMAM+I       1231.650     104 2671.300     24511.300    2935.803
+ 11  mtMAM+G4      1197.967     104 2603.935     24443.935    2868.438
+ 12  mtMAM+I+G4    1198.697     105 2607.395     24867.395    2874.441
+ 13  mtMAM+F       1236.104     122 2716.208     32728.208    3026.490
+ 14  mtMAM+F+I     1190.558     123 2627.117     33131.117    2939.942
+ 15  mtMAM+F+G4    1164.105     123 2574.210     33078.210    2887.035
+ 16  mtMAM+F+I+G4  1165.066     124 2578.131     33578.131    2893.500
+ 17  JTT           1181.743     103 2569.486     23993.486    2831.445
+ 18  JTT+I         1145.931     104 2499.862     24339.862    2764.365
+ 19  JTT+G4        1127.267     104 2462.534     24302.534    2727.037
+ 20  JTT+I+G4      1126.918     105 2463.837     24723.837    2730.883
+ 21  JTT+F         1188.350     122 2620.699     32632.699    2930.981
+ 22  JTT+F+I       1155.730     123 2557.459     33061.459    2870.284
+ 23  JTT+F+G4      1135.660     123 2517.320     33021.320    2830.146
+ 24  JTT+F+I+G4    1135.546     124 2519.093     33519.093    2834.461
+ 25  WAG           1207.250     103 2620.500     24044.500    2882.459
+ 26  WAG+I         1171.447     104 2550.895     24390.895    2815.397
+ 27  WAG+G4        1149.581     104 2507.163     24347.163    2771.665
+ 28  WAG+I+G4      1149.064     105 2508.128     24768.128    2775.173
+ 29  WAG+F         1217.389     122 2678.778     32690.778    2989.060
+ 30  WAG+F+I       1184.784     123 2615.567     33119.567    2928.392
+ 31  WAG+F+G4      1160.121     123 2566.243     33070.243    2879.068
+ 32  WAG+F+I+G4    1159.734     124 2567.468     33567.468    2882.837
+ 33  cpREV         1214.019     103 2634.038     24058.038    2895.997
+ 34  cpREV+I       1179.824     104 2567.647     24407.647    2832.150
+ 35  cpREV+G4      1149.079     104 2506.158     24346.158    2770.661
+ 36  cpREV+I+G4    1149.001     105 2508.002     24768.002    2775.048
+ 37  cpREV+F       1230.802     122 2705.605     32717.605    3015.887
+ 38  cpREV+F+I     1197.599     123 2641.198     33145.198    2954.024
+ 39  cpREV+F+G4    1163.581     123 2573.162     33077.162    2885.988
+ 40  cpREV+F+I+G4  1163.622     124 2575.244     33575.244    2890.612
+ 41  mtREV         1247.888     103 2701.776     24125.776    2963.735
+ 42  mtREV+I       1202.583     104 2613.166     24453.166    2877.669
+ 43  mtREV+G4      1182.411     104 2572.821     24412.821    2837.324
+ 44  mtREV+I+G4    1182.936     105 2575.872     24835.872    2842.918
+ 45  mtREV+F       1220.534     122 2685.069     32697.069    2995.351
+ 46  mtREV+F+I     1178.236     123 2602.473     33106.473    2915.298
+ 47  mtREV+F+G4    1157.263     123 2560.526     33064.526    2873.351
+ 48  mtREV+F+I+G4  1157.465     124 2562.930     33562.930    2878.299
+ 49  rtREV         1204.047     103 2614.094     24038.094    2876.053
+ 50  rtREV+I       1166.365     104 2540.730     24380.730    2805.232
+ 51  rtREV+G4      1146.050     104 2500.100     24340.100    2764.603
+ 52  rtREV+I+G4    1145.792     105 2501.584     24761.584    2768.630
+ 53  rtREV+F       1206.837     122 2657.673     32669.673    2967.955
+ 54  rtREV+F+I     1171.866     123 2589.732     33093.732    2902.557
+ 55  rtREV+F+G4    1151.218     123 2548.436     33052.436    2861.262
+ 56  rtREV+F+I+G4  1150.953     124 2549.906     33549.906    2865.275
+ 57  mtART         1277.458     103 2760.916     24184.916    3022.876
+ 58  mtART+I       1226.987     104 2661.974     24501.974    2926.477
+ 59  mtART+G4      1195.033     104 2598.066     24438.066    2862.568
+ 60  mtART+I+G4    1195.279     105 2600.558     24860.558    2867.604
+ 61  mtART+F       1233.697     122 2711.395     32723.395    3021.677
+ 62  mtART+F+I     1186.255     123 2618.511     33122.511    2931.336
+ 63  mtART+F+G4    1159.945     123 2565.890     33069.890    2878.715
+ 64  mtART+F+I+G4  1160.251     124 2568.502     33568.502    2883.871
+ 65  mtZOA         1244.309     103 2694.617     24118.617    2956.577
+ 66  mtZOA+I       1197.570     104 2603.139     24443.139    2867.642
+ 67  mtZOA+G4      1169.849     104 2547.698     24387.698    2812.201
+ 68  mtZOA+I+G4    1170.096     105 2550.193     24810.193    2817.239
+ 69  mtZOA+F       1216.141     122 2676.282     32688.282    2986.563
+ 70  mtZOA+F+I     1174.605     123 2595.209     33099.209    2908.034
+ 71  mtZOA+F+G4    1151.891     123 2549.781     33053.781    2862.606
+ 72  mtZOA+F+I+G4  1151.850     124 2551.699     33551.699    2867.068
+ 73  VT            1194.542     103 2595.084     24019.084    2857.044
+ 74  VT+I          1161.666     104 2531.333     24371.333    2795.836
+ 75  VT+G4         1143.744     104 2495.487     24335.487    2759.990
+ 76  VT+I+G4       1143.416     105 2496.833     24756.833    2763.879
+ 77  VT+F          1204.147     122 2652.294     32664.294    2962.576
+ 78  VT+F+I        1173.569     123 2593.139     33097.139    2905.964
+ 79  VT+F+G4       1154.250     123 2554.500     33058.500    2867.326
+ 80  VT+F+I+G4     1153.933     124 2555.866     33555.866    2871.234
+ 81  LG            1197.595     103 2601.190     24025.190    2863.149
+ 82  LG+I          1159.968     104 2527.936     24367.936    2792.439
+ 83  LG+G4         1139.222     104 2486.444     24326.444    2750.946
+ 84  LG+I+G4       1138.811     105 2487.622     24747.622    2754.668
+ 85  LG+F          1202.778     122 2649.556     32661.556    2959.838
+ 86  LG+F+I        1169.071     123 2584.143     33088.143    2896.968
+ 87  LG+F+G4       1147.034     123 2540.069     33044.069    2852.894
+ 88  LG+F+I+G4     1146.724     124 2541.448     33541.448    2856.816
+ 89  DCMut         1215.661     103 2637.322     24061.322    2899.282
+ 90  DCMut+I       1174.210     104 2556.421     24396.421    2820.924
+ 91  DCMut+G4      1153.452     104 2514.903     24354.903    2779.406
+ 92  DCMut+I+G4    1152.727     105 2515.455     24775.455    2782.501
+ 93  DCMut+F       1220.296     122 2684.593     32696.593    2994.875
+ 94  DCMut+F+I     1182.169     123 2610.337     33114.337    2923.163
+ 95  DCMut+F+G4    1161.673     123 2569.346     33073.346    2882.171
+ 96  DCMut+F+I+G4  1160.985     124 2569.971     33569.971    2885.339
+ 97  PMB           1214.410     103 2634.820     24058.820    2896.779
+ 98  PMB+I         1180.640     104 2569.280     24409.280    2833.783
+ 99  PMB+G4        1162.145     104 2532.291     24372.291    2796.794
+100  PMB+I+G4      1161.788     105 2533.576     24793.576    2800.622
+101  PMB+F         1222.311     122 2688.621     32700.621    2998.903
+102  PMB+F+I       1190.953     123 2627.905     33131.905    2940.730
+103  PMB+F+G4      1170.186     123 2586.371     33090.371    2899.196
+104  PMB+F+I+G4    1169.863     124 2587.725     33587.725    2903.094
+105  HIVb          1205.126     103 2616.252     24040.252    2878.212
+106  HIVb+I        1167.093     104 2542.186     24382.186    2806.688
+107  HIVb+G4       1139.047     104 2486.094     24326.094    2750.597
+108  HIVb+I+G4     1138.998     105 2487.996     24747.996    2755.042
+109  HIVb+F        1202.770     122 2649.540     32661.540    2959.822
+110  HIVb+F+I      1168.622     123 2583.244     33087.244    2896.070
+111  HIVb+F+G4     1139.437     123 2524.875     33028.875    2837.700
+112  HIVb+F+I+G4   1139.777     124 2527.554     33527.554    2842.923
+113  HIVw          1247.727     103 2701.453     24125.453    2963.413
+114  HIVw+I        1210.314     104 2628.629     24468.629    2893.131
+115  HIVw+G4       1173.058     104 2554.117     24394.117    2818.620
+116  HIVw+I+G4     1172.702     105 2555.404     24815.404    2822.450
+117  HIVw+F        1240.039     122 2724.078     32736.078    3034.360
+118  HIVw+F+I      1205.843     123 2657.685     33161.685    2970.510
+119  HIVw+F+G4     1167.458     123 2580.917     33084.917    2893.742
+120  HIVw+F+I+G4   1167.142     124 2582.284     33582.284    2897.653
+121  JTTDCMut      1182.218     103 2570.436     23994.436    2832.396
+122  JTTDCMut+I    1146.393     104 2500.786     24340.786    2765.288
+123  JTTDCMut+G4   1127.708     104 2463.416     24303.416    2727.918
+124  JTTDCMut+I+G4 1127.329     105 2464.659     24724.659    2731.705
+125  JTTDCMut+F    1188.494     122 2620.988     32632.988    2931.270
+126  JTTDCMut+F+I  1155.921     123 2557.843     33061.843    2870.668
+127  JTTDCMut+F+G4 1135.843     123 2517.686     33021.686    2830.511
+128  JTTDCMut+F+I+G4 1135.627     124 2519.254     33519.254    2834.623
+129  FLU           1212.927     103 2631.854     24055.854    2893.814
+130  FLU+I         1175.986     104 2559.971     24399.971    2824.474
+131  FLU+G4        1144.011     104 2496.022     24336.022    2760.524
+132  FLU+I+G4      1143.554     105 2497.108     24757.108    2764.154
+133  FLU+F         1212.364     122 2668.728     32680.728    2979.010
+134  FLU+F+I       1182.548     123 2611.096     33115.096    2923.921
+135  FLU+F+G4      1147.200     123 2540.400     33044.400    2853.225
+136  FLU+F+I+G4    1147.052     124 2542.103     33542.103    2857.472
+137  Blosum62      1219.505     103 2645.011     24069.011    2906.970
+138  Blosum62+I    1186.283     104 2580.566     24420.566    2845.069
+139  Blosum62+G4   1167.462     104 2542.924     24382.924    2807.427
+140  Blosum62+I+G4 1167.082     105 2544.164     24804.164    2811.210
+141  Blosum62+F    1226.973     122 2697.945     32709.945    3008.227
+142  Blosum62+F+I  1195.837     123 2637.675     33141.675    2950.500
+143  Blosum62+F+G4 1174.338     123 2594.675     33098.675    2907.500
+144  Blosum62+F+I+G4 1173.969     124 2595.939     33595.939    2911.307
+145  mtMet         1241.535     103 2689.070     24113.070    2951.030
+146  mtMet+I       1201.192     104 2610.385     24450.385    2874.887
+147  mtMet+G4      1177.330     104 2562.660     24402.660    2827.163
+148  mtMet+I+G4    1177.460     105 2564.921     24824.921    2831.966
+149  mtMet+F       1200.395     122 2644.791     32656.791    2955.073
+150  mtMet+F+I     1162.755     123 2571.510     33075.510    2884.335
+151  mtMet+F+G4    1143.745     123 2533.489     33037.489    2846.315
+152  mtMet+F+I+G4  1143.885     124 2535.770     33535.770    2851.138
+153  mtVer         1252.777     103 2711.553     24135.553    2973.513
+154  mtVer+I       1210.983     104 2629.966     24469.966    2894.469
+155  mtVer+G4      1184.064     104 2576.127     24416.127    2840.630
+156  mtVer+I+G4    1184.126     105 2578.253     24838.253    2845.299
+157  mtVer+F       1214.056     122 2672.113     32684.113    2982.394
+158  mtVer+F+I     1174.691     123 2595.383     33099.383    2908.208
+159  mtVer+F+G4    1152.302     123 2550.605     33054.605    2863.430
+160  mtVer+F+I+G4  1152.344     124 2552.688     33552.688    2868.057
+161  mtInv         1251.210     103 2708.420     24132.420    2970.380
+162  mtInv+I       1212.139     104 2632.278     24472.278    2896.781
+163  mtInv+G4      1191.648     104 2591.296     24431.296    2855.799
+164  mtInv+I+G4    1191.760     105 2593.520     24853.520    2860.566
+165  mtInv+F       1198.442     122 2640.884     32652.884    2951.166
+166  mtInv+F+I     1160.886     123 2567.772     33071.772    2880.598
+167  mtInv+F+G4    1143.000     123 2532.001     33036.001    2844.826
+168  mtInv+F+I+G4  1142.959     124 2533.919     33533.919    2849.287
+Akaike Information Criterion:           JTT+G4
+Corrected Akaike Information Criterion: JTT
+Bayesian Information Criterion:         JTT+G4
+Best-fit model: JTT+G4 chosen according to BIC
+
+All model information printed to SMPXp_aligned_FINAL.fasta.model.gz
+CPU time for ModelFinder: 21.708 seconds (0h:0m:21s)
+Wall-clock time for ModelFinder: 21.919 seconds (0h:0m:21s)
+WARNING: States(s) W rarely appear in alignment and may cause numerical problems
+Generating 1000 samples for ultrafast bootstrap (seed: 311608)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1133.139
+2. Current log-likelihood: -1127.415
+3. Current log-likelihood: -1127.265
+Optimal log-likelihood: -1127.262
+Gamma shape alpha: 0.479
+Parameters optimization took 3 rounds (0.325 sec)
+Computing ML distances based on estimated model parameters... 0.654 sec
+Computing BIONJ tree...
+0.045 seconds
+Log-likelihood of BIONJ tree: -1112.945
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.535 second
+Computing log-likelihood of 98 initial trees ... 4.787 seconds
+Current best score: -1112.945
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1107.650
+Iteration 10 / LogL: -1113.291 / Time: 0h:0m:12s
+Iteration 20 / LogL: -1113.254 / Time: 0h:0m:17s
+Finish initializing candidate tree set (20)
+Current best tree score: -1107.650 / CPU time: 16.641
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1107.790 / Time: 0h:0m:27s (0h:1m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -1107.496
+Iteration 40 / LogL: -1108.687 / Time: 0h:0m:36s (0h:1m:30s left)
+Iteration 50 / LogL: -1109.495 / Time: 0h:0m:43s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -1134.507
+Iteration 60 / LogL: -1108.303 / Time: 0h:0m:52s (0h:1m:8s left)
+Iteration 70 / LogL: -1107.496 / Time: 0h:1m:1s (0h:0m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -1106.973
+Iteration 80 / LogL: -1107.497 / Time: 0h:1m:10s (0h:1m:21s left)
+Iteration 90 / LogL: -1108.621 / Time: 0h:1m:19s (0h:1m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -1106.896
+BETTER TREE FOUND at iteration 100: -1106.896
+Iteration 100 / LogL: -1106.896 / Time: 0h:1m:28s (0h:1m:29s left)
+Log-likelihood cutoff on original alignment: -1134.507
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+BETTER TREE FOUND at iteration 103: -1106.896
+Iteration 110 / LogL: -1107.033 / Time: 0h:1m:37s (0h:1m:23s left)
+BETTER TREE FOUND at iteration 111: -1106.896
+Iteration 120 / LogL: -1116.559 / Time: 0h:1m:46s (0h:1m:21s left)
+BETTER TREE FOUND at iteration 129: -1106.896
+Iteration 130 / LogL: -1106.896 / Time: 0h:1m:55s (0h:1m:29s left)
+Iteration 140 / LogL: -1106.896 / Time: 0h:2m:4s (0h:1m:19s left)
+Iteration 150 / LogL: -1107.156 / Time: 0h:2m:12s (0h:1m:10s left)
+Log-likelihood cutoff on original alignment: -1134.507
+BETTER TREE FOUND at iteration 157: -1106.896
+Iteration 160 / LogL: -1106.896 / Time: 0h:2m:21s (0h:1m:26s left)
+Iteration 170 / LogL: -1106.896 / Time: 0h:2m:29s (0h:1m:17s left)
+Iteration 180 / LogL: -1106.896 / Time: 0h:2m:38s (0h:1m:8s left)
+Iteration 190 / LogL: -1106.896 / Time: 0h:2m:47s (0h:0m:59s left)
+Iteration 200 / LogL: -1109.867 / Time: 0h:2m:56s (0h:0m:50s left)
+Log-likelihood cutoff on original alignment: -1134.507
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 210 / LogL: -1109.422 / Time: 0h:3m:5s (0h:1m:19s left)
+Iteration 220 / LogL: -1111.283 / Time: 0h:3m:13s (0h:1m:10s left)
+Iteration 230 / LogL: -1119.779 / Time: 0h:3m:23s (0h:1m:2s left)
+BETTER TREE FOUND at iteration 237: -1106.896
+Iteration 240 / LogL: -1106.896 / Time: 0h:3m:32s (0h:1m:26s left)
+Iteration 250 / LogL: -1106.896 / Time: 0h:3m:40s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -1134.507
+Iteration 260 / LogL: -1106.896 / Time: 0h:3m:50s (0h:1m:8s left)
+Iteration 270 / LogL: -1106.896 / Time: 0h:3m:58s (0h:0m:59s left)
+Iteration 280 / LogL: -1107.033 / Time: 0h:4m:7s (0h:0m:50s left)
+Iteration 290 / LogL: -1132.907 / Time: 0h:4m:15s (0h:0m:41s left)
+Iteration 300 / LogL: -1106.896 / Time: 0h:4m:25s (0h:0m:32s left)
+Log-likelihood cutoff on original alignment: -1132.320
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 310 / LogL: -1107.608 / Time: 0h:4m:33s (0h:1m:19s left)
+Iteration 320 / LogL: -1107.156 / Time: 0h:4m:43s (0h:1m:11s left)
+BETTER TREE FOUND at iteration 328: -1106.896
+Iteration 330 / LogL: -1106.896 / Time: 0h:4m:52s (0h:1m:27s left)
+Iteration 340 / LogL: -1106.896 / Time: 0h:5m:1s (0h:1m:18s left)
+BETTER TREE FOUND at iteration 346: -1106.896
+Iteration 350 / LogL: -1110.005 / Time: 0h:5m:11s (0h:1m:25s left)
+Log-likelihood cutoff on original alignment: -1132.320
+Iteration 360 / LogL: -1106.896 / Time: 0h:5m:20s (0h:1m:16s left)
+Iteration 370 / LogL: -1138.295 / Time: 0h:5m:28s (0h:1m:7s left)
+BETTER TREE FOUND at iteration 374: -1106.896
+Iteration 380 / LogL: -1115.624 / Time: 0h:5m:36s (0h:1m:23s left)
+Iteration 390 / LogL: -1111.037 / Time: 0h:5m:45s (0h:1m:14s left)
+Iteration 400 / LogL: -1106.973 / Time: 0h:5m:55s (0h:1m:5s left)
+Log-likelihood cutoff on original alignment: -1133.835
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 410 / LogL: -1106.896 / Time: 0h:6m:6s (0h:1m:20s left)
+Iteration 420 / LogL: -1106.896 / Time: 0h:6m:15s (0h:1m:11s left)
+Iteration 430 / LogL: -1106.896 / Time: 0h:6m:24s (0h:1m:2s left)
+Iteration 440 / LogL: -1107.033 / Time: 0h:6m:33s (0h:0m:53s left)
+Iteration 450 / LogL: -1106.896 / Time: 0h:6m:43s (0h:0m:44s left)
+Log-likelihood cutoff on original alignment: -1133.835
+Iteration 460 / LogL: -1107.033 / Time: 0h:6m:53s (0h:0m:36s left)
+Iteration 470 / LogL: -1106.896 / Time: 0h:7m:3s (0h:0m:27s left)
+TREE SEARCH COMPLETED AFTER 475 ITERATIONS / Time: 0h:7m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1106.896
+Optimal log-likelihood: -1106.896
+Gamma shape alpha: 0.474
+Parameters optimization took 1 rounds (0.084 sec)
+BEST SCORE FOUND : -1106.896
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.205 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file SMPXp_aligned_FINAL.fasta.splits.nex
+Total tree length: 2.542
+
+Total number of iterations: 475
+CPU time used for tree search: 424.464 sec (0h:7m:4s)
+Wall-clock time used for tree search: 426.284 sec (0h:7m:6s)
+Total CPU time used: 426.055 sec (0h:7m:6s)
+Total wall-clock time used: 428.155 sec (0h:7m:8s)
+
+Computing bootstrap consensus tree...
+Reading input file SMPXp_aligned_FINAL.fasta.splits.nex...
+53 taxa and 1092 splits.
+Consensus tree written to SMPXp_aligned_FINAL.fasta.contree
+Reading input trees file SMPXp_aligned_FINAL.fasta.contree
+Log-likelihood of consensus tree: -1107.034
+
+Analysis results written to: 
+  IQ-TREE report:                SMPXp_aligned_FINAL.fasta.iqtree
+  Maximum-likelihood tree:       SMPXp_aligned_FINAL.fasta.treefile
+  Likelihood distances:          SMPXp_aligned_FINAL.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          SMPXp_aligned_FINAL.fasta.splits.nex
+  Consensus tree:                SMPXp_aligned_FINAL.fasta.contree
+  Screen log file:               SMPXp_aligned_FINAL.fasta.log
+
+Date and Time: Mon Mar  2 07:44:57 2020

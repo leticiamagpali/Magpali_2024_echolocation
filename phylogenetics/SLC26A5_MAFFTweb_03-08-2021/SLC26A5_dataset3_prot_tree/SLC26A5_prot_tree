@@ -1,0 +1,146 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	Balaenoptera_acutorostrata_SLC26A5
+	Balaenoptera_physalus_SLC26A5
+	Bos_taurus_SLC26A5
+	Cephalorhynchus_commersonii_SLC26A5
+	Cephalorhynchus_heavisidii_SLC26A5
+	Delphinapterus_leucas_SLC26A5
+	Delphinus_delphis_SLC26A5
+	Eschrichtius_robustus_SLC26A5
+	Eubalaena_glacialis_SLC26A5
+	Feresa_attenuata_SLC26A5
+	Globicephala_melas_SLC26A5
+	Grampus_griseus_SLC26A5
+	Hyperoodon_ampullatus_SLC26A5
+	Inia_geoffrensis_SLC26A5
+	Kogia_breviceps_SLC26A5
+	Kogia_sima_SLC26A5
+	Lagenorhynchus_australis_SLC26A5
+	Lagenorhynchus_obliquidens_SLC26A5
+	Lagenorhynchus_obscurus_SLC26A5
+	Lipotes_vexillifer_SLC26A5
+	Lissodelphis_peronii_SLC26A5
+	Megaptera_novaeangliae_SLC26A5
+	Mesoplodon_densirostris_SLC26A5
+	Monodon_monoceros_SLC26A5
+	Neophocaena_asiaeorientalis_asiaeorientalis_SLC26A5
+	Neophocaena_phocaenoides_SLC26A5
+	Orcaella_brevirostris_SLC26A5
+	Orcaella_heinsohni_SLC26A5
+	Orcinus_orca_SLC26A5
+	Peponocephala_electra_SLC26A5
+	Phocoena_phocoena_SLC26A5
+	Phocoena_sinus_SLC26A5
+	Phocoena_spinipinnis_SLC26A5
+	Physeter_catodon_SLC26A5
+	Platanista_gangetica_SLC26A5
+	Pontoporia_blainvillei_SLC26A5
+	Sotalia_fluviatilis_SLC26A5
+	Sotalia_guianensis_SLC26A5
+	Sousa_chinensis_SLC26A5
+	Stenella_attenuata_SLC26A5
+	Sus_scrofa_SLC26A5
+	Tursiops_aduncus_SLC26A5
+	Tursiops_truncatus_SLC26A5
+	Ziphius_cavirostris_SLC26A5
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Stenella_attenuata_SLC26A5:0.0,((((((((((((((Delphinus_delphis_SLC26A5:2.0E-6,(Tursiops_aduncus_SLC26A5:1.0E-6,Sousa_chinensis_SLC26A5:1.0E-6)[&label="0/0.333/88"]:2.0E-6)[&label="0/0.333/24"]:1.0E-6,((Orcinus_orca_SLC26A5:0.001313,((((Phocoena_phocoena_SLC26A5:2.0E-6,Neophocaena_phocaenoides_SLC26A5:2.0E-6)[&label="0/0.333/18"]:2.0E-6,Neophocaena_asiaeorientalis_asiaeorientalis_SLC26A5:1.0E-6)[&label="0/0.333/18"]:2.0E-6,(((Monodon_monoceros_SLC26A5:1.0E-6,Delphinapterus_leucas_SLC26A5:1.0E-6)[&label="0/0.333/77"]:2.0E-6,(Lipotes_vexillifer_SLC26A5:0.002401,((((Mesoplodon_densirostris_SLC26A5:2.0E-6,Hyperoodon_ampullatus_SLC26A5:0.004013)[&label="0/0.333/40"]:2.0E-6,Ziphius_cavirostris_SLC26A5:0.002675)[&label="79.2/0.916/65"]:0.00295,((Physeter_catodon_SLC26A5:0.004756,(Kogia_breviceps_SLC26A5:0.003924,Kogia_sima_SLC26A5:0.001671)[&label="99.5/1/100"]:0.017476)[&label="93.5/1/90"]:0.009666,(Platanista_gangetica_SLC26A5:0.009075,((((Balaenoptera_physalus_SLC26A5:2.0E-6,(Eschrichtius_robustus_SLC26A5:0.001517,Balaenoptera_acutorostrata_SLC26A5:0.005383)[&label="0/0.334/59"]:2.0E-6)[&label="0/0.333/39"]:2.0E-6,Megaptera_novaeangliae_SLC26A5:0.002667)[&label="76.4/0.852/74"]:0.001721,Eubalaena_glacialis_SLC26A5:0.003641)[&label="80.2/0.99/75"]:0.004432,(Bos_taurus_SLC26A5:0.013455,Sus_scrofa_SLC26A5:0.02646)[&label="90.3/0.994/91"]:0.007302)[&label="89.5/0.999/87"]:0.005254)[&label="90.9/1/92"]:0.007267)[&label="83.3/0.999/65"]:0.006595)[&label="89.4/0.999/60"]:0.006908,(Pontoporia_blainvillei_SLC26A5:0.003129,Inia_geoffrensis_SLC26A5:2.0E-6)[&label="0/0.333/31"]:2.0E-6)[&label="0/0.333/50"]:2.0E-6)[&label="81.7/0.982/83"]:0.001548)[&label="91.5/1/93"]:0.002632,Phocoena_spinipinnis_SLC26A5:2.0E-6)[&label="0/0.333/8"]:2.0E-6)[&label="0/0.333/23"]:2.0E-6,Phocoena_sinus_SLC26A5:0.002648)[&label="97.5/1/99"]:0.005302)[&label="0/0.333/70"]:1.0E-6,(Sotalia_guianensis_SLC26A5:1.0E-6,Sotalia_fluviatilis_SLC26A5:0.001346)[&label="0/0.333/79"]:2.0E-6)[&label="0/0.333/22"]:1.0E-6)[&label="0/0.333/11"]:2.0E-6,Cephalorhynchus_commersonii_SLC26A5:1.0E-6):2.0E-6,Grampus_griseus_SLC26A5:0.0):0.0,Orcaella_brevirostris_SLC26A5:0.0):0.0,Cephalorhynchus_heavisidii_SLC26A5:0.0):0.0,Feresa_attenuata_SLC26A5:0.0):0.0,Lagenorhynchus_australis_SLC26A5:0.0):0.0,Lagenorhynchus_obliquidens_SLC26A5:0.0):0.0,Orcaella_heinsohni_SLC26A5:0.0):0.0,Lagenorhynchus_obscurus_SLC26A5:0.0):0.0,Globicephala_melas_SLC26A5:0.0):0.0,Peponocephala_electra_SLC26A5:0.0):0.0,Tursiops_truncatus_SLC26A5:0.0):0.0,Lissodelphis_peronii_SLC26A5:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Avenir Next";
+	set tipLabels.fontSize=20;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

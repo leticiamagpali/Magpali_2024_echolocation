@@ -1,0 +1,405 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: TMC1_dataset3_nuc_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 308299
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 44 sequences with 2286 nucleotide sites
+Number of constant sites: 2011 (= 87.9703% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2011 (= 87.9703% of all sites)
+Number of parsimony informative sites: 119
+Number of distinct site patterns: 329
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM3u+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+TPM3u+F+I+G4     -5563.3389  11310.6777 - 0.0472  11318.4807 + 0.0521  11838.2571 + 0.1887
+TPM3+F+I+G4      -5563.3525  11310.7051 - 0.0465  11318.5081 + 0.0514  11838.2845 + 0.1861
+TIM3+F+I+G4      -5559.6168  11305.2337 + 0.7178  11313.2099 + 0.7267  11838.5476 + 0.1632
+TPM3u+F+I        -5567.6600  11317.3200 - 0.0017  11324.9517 - 0.0020  11839.1648 + 0.1199
+TPM3+F+I         -5567.6603  11317.3207 - 0.0017  11324.9524 - 0.0020  11839.1655 + 0.1198
+TIM3+F+I         -5564.3764  11312.7529 - 0.0167  11320.5559 - 0.0185  11840.3323 + 0.0669
+TPM3u+F+G4       -5568.4584  11318.9167 - 0.0008  11326.5484 - 0.0009  11840.7616 + 0.0539
+TPM3+F+G4        -5568.4587  11318.9174 - 0.0008  11326.5491 - 0.0009  11840.7622 + 0.0539
+TIM3+F+G4        -5564.9304  11313.8609 - 0.0096  11321.6639 - 0.0106  11841.4403 - 0.0384
+HKY+F+I          -5575.5228  11331.0457 - 0.0000  11338.5081 - 0.0000  11847.1559 - 0.0022
+HKY+F+I+G4       -5571.7152  11325.4304 - 0.0000  11333.0621 - 0.0000  11847.2753 - 0.0021
+TN+F+I+G4        -5568.1731  11320.3463 - 0.0004  11328.1493 - 0.0004  11847.9257 - 0.0015
+TN+F+I           -5572.2599  11326.5199 - 0.0000  11334.1516 - 0.0000  11848.3647 - 0.0012
+HKY+F+G4         -5576.7009  11333.4017 - 0.0000  11340.8641 - 0.0000  11849.5120 - 0.0007
+TN+F+G4          -5573.1577  11328.3154 - 0.0000  11335.9471 - 0.0000  11850.1602 - 0.0005
+TVM+F+I+G4       -5562.9294  11313.8589 - 0.0096  11322.0104 - 0.0089  11852.9074 - 0.0001
+GTR+F+I+G4       -5559.2421  11308.4841 + 0.1413  11316.8129 + 0.1199  11853.2672 - 0.0001
+TVM+F+I          -5567.3604  11320.7209 - 0.0003  11328.6971 - 0.0003  11854.0348 - 0.0001
+TPM2u+F+I+G4     -5571.3387  11326.6774 - 0.0000  11334.4804 - 0.0000  11854.2568 - 0.0001
+TPM2+F+I+G4      -5571.3516  11326.7032 - 0.0000  11334.5062 - 0.0000  11854.2826 - 0.0001
+TPM2u+F+I        -5575.2243  11332.4487 - 0.0000  11340.0804 - 0.0000  11854.2935 - 0.0001
+TPM2+F+I         -5575.2246  11332.4493 - 0.0000  11340.0810 - 0.0000  11854.2941 - 0.0001
+K3Pu+F+I         -5575.4551  11332.9103 - 0.0000  11340.5420 - 0.0000  11854.7551 - 0.0000
+TIM2+F+I+G4      -5567.7259  11321.4519 - 0.0002  11329.4282 - 0.0002  11854.7658 - 0.0000
+K3Pu+F+I+G4      -5571.6006  11327.2013 - 0.0000  11335.0043 - 0.0000  11854.7807 - 0.0000
+GTR+F+I          -5564.0593  11316.1187 - 0.0031  11324.2702 - 0.0029  11855.1672 - 0.0000
+TIM+F+I+G4       -5568.0142  11322.0283 - 0.0002  11330.0046 - 0.0002  11855.3423 - 0.0000
+TIM2+F+I         -5571.9457  11327.8913 - 0.0000  11335.6943 - 0.0000  11855.4707 - 0.0000
+TVM+F+G4         -5568.1488  11322.2977 - 0.0001  11330.2739 - 0.0001  11855.6116 - 0.0000
+TIM+F+I          -5572.1960  11328.3921 - 0.0000  11336.1951 - 0.0000  11855.9715 - 0.0000
+GTR+F+G4         -5564.6047  11317.2093 - 0.0018  11325.3608 - 0.0017  11856.2579 - 0.0000
+TPM2u+F+G4       -5576.3903  11334.7806 - 0.0000  11342.4123 - 0.0000  11856.6254 - 0.0000
+TPM2+F+G4        -5576.3906  11334.7812 - 0.0000  11342.4130 - 0.0000  11856.6261 - 0.0000
+K3Pu+F+G4        -5576.6363  11335.2727 - 0.0000  11342.9044 - 0.0000  11857.1175 - 0.0000
+TIM2+F+G4        -5572.8298  11329.6597 - 0.0000  11337.4627 - 0.0000  11857.2391 - 0.0000
+TIM+F+G4         -5573.0940  11330.1879 - 0.0000  11337.9909 - 0.0000  11857.7674 - 0.0000
+K2P+I            -5592.7260  11359.4520 - 0.0000  11366.4183 - 0.0000  11858.3586 - 0.0000
+K2P+I+G4         -5589.1056  11354.2112 - 0.0000  11361.3409 - 0.0000  11858.8524 - 0.0000
+K2P+G4           -5594.1900  11362.3800 - 0.0000  11369.3463 - 0.0000  11861.2866 - 0.0000
+TIM3e+I+G4       -5583.1471  11346.2943 - 0.0000  11353.7567 - 0.0000  11862.4046 - 0.0000
+TIM3e+I          -5587.2620  11352.5241 - 0.0000  11359.8192 - 0.0000  11862.8998 - 0.0000
+TNe+I            -5591.5303  11359.0606 - 0.0000  11366.1903 - 0.0000  11863.7018 - 0.0000
+TNe+I+G4         -5587.8065  11353.6131 - 0.0000  11360.9082 - 0.0000  11863.9888 - 0.0000
+TIM3e+G4         -5588.3040  11354.6080 - 0.0000  11361.9031 - 0.0000  11864.9838 - 0.0000
+K3P+I            -5592.6938  11361.3876 - 0.0000  11368.5173 - 0.0000  11866.0288 - 0.0000
+TNe+G4           -5592.8613  11361.7226 - 0.0000  11368.8523 - 0.0000  11866.3638 - 0.0000
+K3P+I+G4         -5589.0262  11356.0525 - 0.0000  11363.3476 - 0.0000  11866.4282 - 0.0000
+K3P+G4           -5594.1613  11364.3226 - 0.0000  11371.4523 - 0.0000  11868.9638 - 0.0000
+TIM2e+I          -5590.7836  11359.5671 - 0.0000  11366.8622 - 0.0000  11869.9429 - 0.0000
+TIM2e+I+G4       -5586.9205  11353.8410 - 0.0000  11361.3034 - 0.0000  11869.9513 - 0.0000
+TVMe+I+G4        -5583.5330  11349.0660 - 0.0000  11356.6977 - 0.0000  11870.9109 - 0.0000
+TVMe+I           -5587.6124  11355.2248 - 0.0000  11362.6872 - 0.0000  11871.3351 - 0.0000
+TIMe+I           -5591.4989  11360.9977 - 0.0000  11368.2928 - 0.0000  11871.3735 - 0.0000
+TIMe+I+G4        -5587.6796  11355.3592 - 0.0000  11362.8216 - 0.0000  11871.4695 - 0.0000
+TIM2e+G4         -5592.1008  11362.2017 - 0.0000  11369.4967 - 0.0000  11872.5774 - 0.0000
+TVMe+G4          -5588.7562  11357.5123 - 0.0000  11364.9747 - 0.0000  11873.6226 - 0.0000
+TIMe+G4          -5592.8314  11363.6627 - 0.0000  11370.9578 - 0.0000  11874.0385 - 0.0000
+SYM+I+G4         -5582.3089  11348.6178 - 0.0000  11356.4208 - 0.0000  11876.1972 - 0.0000
+SYM+I            -5586.5140  11355.0279 - 0.0000  11362.6596 - 0.0000  11876.8728 - 0.0000
+SYM+G4           -5587.5390  11357.0779 - 0.0000  11364.7096 - 0.0000  11878.9228 - 0.0000
+TIM3+F           -5652.5563  11487.1125 - 0.0000  11494.7443 - 0.0000  12008.9574 - 0.0000
+TPM3u+F          -5657.5045  11495.0091 - 0.0000  11502.4715 - 0.0000  12011.1193 - 0.0000
+TPM3+F           -5657.5049  11495.0098 - 0.0000  11502.4722 - 0.0000  12011.1201 - 0.0000
+TN+F             -5662.6641  11505.3283 - 0.0000  11512.7907 - 0.0000  12021.4385 - 0.0000
+GTR+F            -5652.0923  11490.1846 - 0.0000  11498.1609 - 0.0000  12023.4986 - 0.0000
+HKY+F            -5667.6006  11513.2012 - 0.0000  11520.4962 - 0.0000  12023.5769 - 0.0000
+TVM+F            -5657.0415  11498.0831 - 0.0000  11505.8861 - 0.0000  12025.6625 - 0.0000
+TIM2+F           -5662.2081  11506.4161 - 0.0000  11514.0479 - 0.0000  12028.2610 - 0.0000
+TIM+F            -5662.6115  11507.2229 - 0.0000  11514.8546 - 0.0000  12029.0678 - 0.0000
+TPM2u+F          -5667.1431  11514.2861 - 0.0000  11521.7485 - 0.0000  12030.3964 - 0.0000
+TPM2+F           -5667.1434  11514.2868 - 0.0000  11521.7492 - 0.0000  12030.3970 - 0.0000
+K3Pu+F           -5667.5474  11515.0948 - 0.0000  11522.5572 - 0.0000  12031.2051 - 0.0000
+TIM3e            -5678.1503  11532.3005 - 0.0000  11539.4303 - 0.0000  12036.9417 - 0.0000
+K2P              -5686.3829  11544.7658 - 0.0000  11551.5707 - 0.0000  12037.9379 - 0.0000
+TNe              -5684.6337  11543.2674 - 0.0000  11550.2338 - 0.0000  12042.1740 - 0.0000
+K3P              -5686.3652  11546.7304 - 0.0000  11553.6967 - 0.0000  12045.6370 - 0.0000
+TVMe             -5679.0595  11536.1189 - 0.0000  11543.4140 - 0.0000  12046.4947 - 0.0000
+TIM2e            -5683.7976  11543.5952 - 0.0000  11550.7249 - 0.0000  12048.2364 - 0.0000
+TIMe             -5684.6131  11545.2263 - 0.0000  11552.3560 - 0.0000  12049.8674 - 0.0000
+SYM              -5677.3076  11534.6152 - 0.0000  11542.0776 - 0.0000  12050.7255 - 0.0000
+F81+F+I          -5693.0885  11564.1771 - 0.0000  11571.4721 - 0.0000  12074.5528 - 0.0000
+F81+F+I+G4       -5689.4515  11558.9030 - 0.0000  11566.3654 - 0.0000  12075.0133 - 0.0000
+F81+F+G4         -5693.8501  11565.7002 - 0.0000  11572.9952 - 0.0000  12076.0759 - 0.0000
+JC+I             -5710.0340  11592.0681 - 0.0000  11598.8730 - 0.0000  12085.2401 - 0.0000
+JC+I+G4          -5706.4995  11586.9990 - 0.0000  11593.9654 - 0.0000  12085.9057 - 0.0000
+JC+G4            -5710.9743  11593.9486 - 0.0000  11600.7535 - 0.0000  12087.1207 - 0.0000
+F81+F            -5781.6141  11739.2282 - 0.0000  11746.3580 - 0.0000  12243.8694 - 0.0000
+JC               -5799.9542  11769.9084 - 0.0000  11776.5538 - 0.0000  12257.3459 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM3u+F+I+G4
+
+Rate parameter R:
+
+  A-C: 2.4640
+  A-G: 9.3978
+  A-T: 1.0000
+  C-G: 2.4640
+  C-T: 9.3978
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2861
+  pi(C) = 0.1956
+  pi(G) = 0.2484
+  pi(T) = 0.2699
+
+Rate matrix Q:
+
+  A   -0.9855    0.1539    0.7454   0.08617
+  C    0.2251     -1.23    0.1954    0.8098
+  G    0.8584    0.1539    -1.099   0.08617
+  T   0.09134     0.587   0.07932   -0.7577
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.683
+Gamma shape alpha: 1.324
+
+ Category  Relative_rate  Proportion
+  0         0              0.683
+  1         0.621          0.07924
+  2         1.755          0.07924
+  3         3.275          0.07924
+  4         6.968          0.07924
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5554.1986 (s.e. 145.7394)
+Unconstrained log-likelihood (without tree): -9175.6980
+Number of free parameters (#branches + #model parameters): 92
+Akaike information criterion (AIC) score: 11292.3972
+Corrected Akaike information criterion (AICc) score: 11300.2002
+Bayesian information criterion (BIC) score: 11819.9766
+
+Total tree length (sum of branch lengths): 0.1930
+Sum of internal branch lengths: 0.0646 (33.4633% of tree length)
+
+WARNING: 15 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Stenella_attenuata_TMC1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++**Stenella_attenuata_TMC1
+|
+|           +**Sousa_chinensis_TMC1
+|        +--| (86.2/0.993/65)
+|        |  +--Orcinus_orca_TMC1
+|     +**| (0/0.333/17)
+|     |  |           +**Cephalorhynchus_heavisidii_TMC1
+|     |  |        +**| (0/0.333/10)
+|     |  |        |  |  +**Lagenorhynchus_obscurus_TMC1
+|     |  |        |  +**| (0/0.333/4)
+|     |  |        |     |     +**Lissodelphis_peronii_TMC1
+|     |  |        |     |  +**| (0/0.334/40)
+|     |  |        |     |  |  +**Lagenorhynchus_obliquidens_TMC1
+|     |  |        |     +--| (78.2/0.476/40)
+|     |  |        |        +**Lagenorhynchus_australis_TMC1
+|     |  |     +--| (86.5/0.986/71)
+|     |  |     |  +**Cephalorhynchus_commersonii_TMC1
+|     |  |  +**| (0/0.333/26)
+|     |  |  |  |           +--Pontoporia_blainvillei_TMC1
+|     |  |  |  |        +--| (93/1/99)
+|     |  |  |  |        |  +--Inia_geoffrensis_TMC1
+|     |  |  |  |     +--| (73.3/0.798/81)
+|     |  |  |  |     |  +---Lipotes_vexillifer_TMC1
+|     |  |  |  |  +--| (91.2/1/91)
+|     |  |  |  |  |  |        +--Mesoplodon_densirostris_TMC1
+|     |  |  |  |  |  |     +**| (0/0.334/88)
+|     |  |  |  |  |  |     |  |  +--Hyperoodon
+|     |  |  |  |  |  |     |  +--| (80.1/0.988/97)
+|     |  |  |  |  |  |     |     +--Ziphius_cavirostris_TMC1
+|     |  |  |  |  |  +-----| (99.9/1/100)
+|     |  |  |  |  |        |         +---Kogia_sima_TMC1
+|     |  |  |  |  |        |      +--| (88.9/0.999/96)
+|     |  |  |  |  |        |      |  +---Kogia_breviceps_TMC1
+|     |  |  |  |  |        |  +---| (98.7/1/100)
+|     |  |  |  |  |        |  |   +--Physeter_catodon_TMC1
+|     |  |  |  |  |        +--| (82.8/0.988/89)
+|     |  |  |  |  |           |          +--Eubalaena_glacialis_TMC1
+|     |  |  |  |  |           |     +----| (98.4/1/100)
+|     |  |  |  |  |           |     |    |     +--Eschrichtius_robustus_TMC1
+|     |  |  |  |  |           |     |    |  +**| (0/0.333/71)
+|     |  |  |  |  |           |     |    |  |  |  +**Balaenoptera_physalus_TMC1
+|     |  |  |  |  |           |     |    |  |  +--| (81/0.961/99)
+|     |  |  |  |  |           |     |    |  |     +--Megaptera_novaeangliae_TMC1
+|     |  |  |  |  |           |     |    +--| (56.4/0.924/79)
+|     |  |  |  |  |           |     |       +--Balaenoptera_acutorostrata_TMC1
+|     |  |  |  |  |           |  +--| (80.9/0.976/92)
+|     |  |  |  |  |           |  |  |             +----------------------------Bos_taurus_TMC1
+|     |  |  |  |  |           |  |  +-------------| (99.7/1/100)
+|     |  |  |  |  |           |  |                +-----------------------------Sus_scrofa_TMC1
+|     |  |  |  |  |           +--| (79.3/0.923/88)
+|     |  |  |  |  |              +------Platanista_gangetica_TMC1
+|     |  |  |  +--| (95.2/1/98)
+|     |  |  |     |              +--Phocoena_spinipinnis_TMC1
+|     |  |  |     |           +**| (84.4/0.991/99)
+|     |  |  |     |           |  +**Phocoena_sinus_TMC1
+|     |  |  |     |        +**| (0/0.334/89)
+|     |  |  |     |        |  +**Neophocaena_asiaeorientalis_asiaeorientalis_TMC1
+|     |  |  |     |     +--| (36.6/0.689/77)
+|     |  |  |     |     |  +--Neophocaena_phocaenoides_TMC1
+|     |  |  |     |  +--| (96.3/1/100)
+|     |  |  |     |  |  +--Phocoena_phocoena_TMC1
+|     |  |  |     +--| (99.3/1/100)
+|     |  |  |        |  +--Monodon_monoceros_TMC1
+|     |  |  |        +**| (0/0.334/80)
+|     |  |  |           +--Delphinapterus_leucas_TMC1
+|     |  +--| (77.6/0.997/46)
+|     |     |        +**Feresa_attenuata_TMC1
+|     |     |     +--| (86.6/0.999/99)
+|     |     |     |  +--Peponocephala_electra_TMC1
+|     |     |  +**| (0/0.334/90)
+|     |     |  |  +--Grampus_griseus_TMC1
+|     |     +--| (91.8/1/99)
+|     |        +--Globicephala_melas_TMC1
+|  +--| (92.3/1/64)
+|  |  |  +**Orcaella_heinsohni_TMC1
+|  |  +**| (0/0.334/40)
+|  |     |  +**Orcaella_brevirostris_TMC1
+|  |     +**| (0/0.333/40)
+|  |        |  +--Sotalia_guianensis_TMC1
+|  |        +--| (95/1/99)
+|  |           +**Sotalia_fluviatilis_TMC1
++**| (0/0.334/31)
+|  +**Delphinus_delphis_TMC1
+|
+|  +--Tursiops_aduncus_TMC1
++**| (0/0.352/34)
+   +--Tursiops_truncatus_TMC1
+
+Tree in newick format:
+
+(Stenella_attenuata_TMC1:0.0000027084,((((Sousa_chinensis_TMC1:0.0000021892,Orcinus_orca_TMC1:0.0006599364)86.2/0.993/65:0.0006589441,((((Cephalorhynchus_heavisidii_TMC1:0.0000027084,(Lagenorhynchus_obscurus_TMC1:0.0000021510,((Lissodelphis_peronii_TMC1:0.0000027084,Lagenorhynchus_obliquidens_TMC1:0.0000020361)0/0.334/40:0.0000016059,Lagenorhynchus_australis_TMC1:0.0000027084)78.2/0.476/40:0.0006556794)0/0.333/4:0.0000021604)0/0.333/10:0.0000020100,Cephalorhynchus_commersonii_TMC1:0.0000027084)86.5/0.986/71:0.0006583808,((((Pontoporia_blainvillei_TMC1:0.0030076673,Inia_geoffrensis_TMC1:0.0026276147)93/1/99:0.0024162826,Lipotes_vexillifer_TMC1:0.0047902059)73.3/0.798/81:0.0006463094,((Mesoplodon_densirostris_TMC1:0.0013407982,(Hyperoodon:0.0005305637,Ziphius_cavirostris_TMC1:0.0029850927)80.1/0.988/97:0.0011093256)0/0.334/88:0.0000028757,(((Kogia_sima_TMC1:0.0050308664,Kogia_breviceps_TMC1:0.0048614921)88.9/0.999/96:0.0025723203,Physeter_catodon_TMC1:0.0035688929)98.7/1/100:0.0053123092,(((Eubalaena_glacialis_TMC1:0.0041910447,((Eschrichtius_robustus_TMC1:0.0037780806,(Balaenoptera_physalus_TMC1:0.0000027084,Megaptera_novaeangliae_TMC1:0.0010913860)81/0.961/99:0.0004944823)0/0.333/71:0.0000020835,Balaenoptera_acutorostrata_TMC1:0.0026576223)56.4/0.924/79:0.0015863052)98.4/1/100:0.0058019455,(Bos_taurus_TMC1:0.0329000074,Sus_scrofa_TMC1:0.0342380136)99.7/1/100:0.0156225007)80.9/0.976/92:0.0018830249,Platanista_gangetica_TMC1:0.0088363910)79.3/0.923/88:0.0014215729)82.8/0.988/89:0.0012473367)99.9/1/100:0.0069926734)91.2/1/91:0.0017128940,(((((Phocoena_spinipinnis_TMC1:0.0012221108,Phocoena_sinus_TMC1:0.0000027084)84.4/0.991/99:0.0004369110,Neophocaena_asiaeorientalis_asiaeorientalis_TMC1:0.0000027084)0/0.334/89:0.0000022975,Neophocaena_phocaenoides_TMC1:0.0035155017)36.6/0.689/77:0.0006141232,Phocoena_phocoena_TMC1:0.0011258825)96.3/1/100:0.0025034613,(Monodon_monoceros_TMC1:0.0008512042,Delphinapterus_leucas_TMC1:0.0004741085)0/0.334/80:0.0000022527)99.3/1/100:0.0040454466)95.2/1/98:0.0022330009)0/0.333/26:0.0000021481,(((Feresa_attenuata_TMC1:0.0000020423,Peponocephala_electra_TMC1:0.0005276392)86.6/0.999/99:0.0005280899,Grampus_griseus_TMC1:0.0005271458)0/0.334/90:0.0000020295,Globicephala_melas_TMC1:0.0004378126)91.8/1/99:0.0008791054)77.6/0.997/46:0.0004392208)0/0.333/17:0.0000028268,(Orcaella_heinsohni_TMC1:0.0000027084,(Orcaella_brevirostris_TMC1:0.0000029702,(Sotalia_guianensis_TMC1:0.0009429373,Sotalia_fluviatilis_TMC1:0.0000024437)95/1/99:0.0014120513)0/0.333/40:0.0000022173)0/0.334/40:0.0000022716)92.3/1/64:0.0008788491,Delphinus_delphis_TMC1:0.0000022338)0/0.334/31:0.0000022367,(Tursiops_aduncus_TMC1:0.0005322911,Tursiops_truncatus_TMC1:0.0004406906)0/0.352/34:0.0004373658);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000bootstrap trees
+Log-likelihood of consensus tree: -5557.146437
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Stenella_attenuata_TMC1
+|
+|              +--Sousa_chinensis_TMC1
+|           +--| (65)
+|           |  +--Orcinus_orca_TMC1
+|        +--| (33)
+|        |  |  +--Orcaella_heinsohni_TMC1
+|        |  +--| (40)
+|        |     |  +--Orcaella_brevirostris_TMC1
+|        |     +--| (40)
+|        |        |  +--Sotalia_guianensis_TMC1
+|        |        +--| (99)
+|        |           +--Sotalia_fluviatilis_TMC1
+|     +--| (64)
+|     |  |           +--Cephalorhynchus_heavisidii_TMC1
+|     |  |        +--| (35)
+|     |  |        |  +--Lagenorhynchus_obscurus_TMC1
+|     |  |     +--| (41)
+|     |  |     |  +--Cephalorhynchus_commersonii_TMC1
+|     |  |  +--| (71)
+|     |  |  |  |     +--Lissodelphis_peronii_TMC1
+|     |  |  |  |  +--| (40)
+|     |  |  |  |  |  +--Lagenorhynchus_obliquidens_TMC1
+|     |  |  |  +--| (40)
+|     |  |  |     +--Lagenorhynchus_australis_TMC1
+|     |  +--| (46)
+|     |     |              +--Pontoporia_blainvillei_TMC1
+|     |     |           +--| (99)
+|     |     |           |  +--Inia_geoffrensis_TMC1
+|     |     |        +--| (81)
+|     |     |        |  +---Lipotes_vexillifer_TMC1
+|     |     |     +--| (91)
+|     |     |     |  |        +--Mesoplodon_densirostris_TMC1
+|     |     |     |  |     +--| (88)
+|     |     |     |  |     |  |  +--Hyperoodon
+|     |     |     |  |     |  +--| (97)
+|     |     |     |  |     |     +--Ziphius_cavirostris_TMC1
+|     |     |     |  +-----| (100)
+|     |     |     |        |         +---Kogia_sima_TMC1
+|     |     |     |        |      +--| (96)
+|     |     |     |        |      |  +---Kogia_breviceps_TMC1
+|     |     |     |        |  +---| (100)
+|     |     |     |        |  |   +--Physeter_catodon_TMC1
+|     |     |     |        +--| (89)
+|     |     |     |           |          +--Eubalaena_glacialis_TMC1
+|     |     |     |           |     +----| (100)
+|     |     |     |           |     |    |     +--Eschrichtius_robustus_TMC1
+|     |     |     |           |     |    |  +--| (71)
+|     |     |     |           |     |    |  |  |  +--Balaenoptera_physalus_TMC1
+|     |     |     |           |     |    |  |  +--| (99)
+|     |     |     |           |     |    |  |     +--Megaptera_novaeangliae_TMC1
+|     |     |     |           |     |    +--| (79)
+|     |     |     |           |     |       +--Balaenoptera_acutorostrata_TMC1
+|     |     |     |           |  +--| (92)
+|     |     |     |           |  |  |            +----------------------------Bos_taurus_TMC1
+|     |     |     |           |  |  +------------| (100)
+|     |     |     |           |  |               +-----------------------------Sus_scrofa_TMC1
+|     |     |     |           +--| (88)
+|     |     |     |              +------Platanista_gangetica_TMC1
+|     |     |  +--| (98)
+|     |     |  |  |              +--Phocoena_spinipinnis_TMC1
+|     |     |  |  |           +--| (99)
+|     |     |  |  |           |  +--Phocoena_sinus_TMC1
+|     |     |  |  |        +--| (89)
+|     |     |  |  |        |  +--Neophocaena_asiaeorientalis_asiaeorientalis_TMC1
+|     |     |  |  |     +--| (77)
+|     |     |  |  |     |  +--Neophocaena_phocaenoides_TMC1
+|     |     |  |  |  +--| (100)
+|     |     |  |  |  |  +--Phocoena_phocoena_TMC1
+|     |     |  |  +--| (100)
+|     |     |  |     |  +--Monodon_monoceros_TMC1
+|     |     |  |     +--| (80)
+|     |     |  |        +--Delphinapterus_leucas_TMC1
+|     |     +--| (34)
+|     |        |        +--Feresa_attenuata_TMC1
+|     |        |     +--| (99)
+|     |        |     |  +--Peponocephala_electra_TMC1
+|     |        |  +--| (90)
+|     |        |  |  +--Grampus_griseus_TMC1
+|     |        +--| (99)
+|     |           +--Globicephala_melas_TMC1
+|  +--| (35)
+|  |  +--Tursiops_truncatus_TMC1
++--| (31)
+|  +--Tursiops_aduncus_TMC1
+|
++--Delphinus_delphis_TMC1
+
+
+Consensus tree in newick format: 
+
+(Stenella_attenuata_TMC1:0.0000027054,(((((Sousa_chinensis_TMC1:0.0000027054,Orcinus_orca_TMC1:0.0004414853)65:0.0004412287,(Orcaella_heinsohni_TMC1:0.0000027054,(Orcaella_brevirostris_TMC1:0.0000027054,(Sotalia_guianensis_TMC1:0.0009415616,Sotalia_fluviatilis_TMC1:0.0000027054)99:0.0012556654)40:0.0006171414)40:0.0000027078)33:0.0000027054,((((Cephalorhynchus_heavisidii_TMC1:0.0000027054,Lagenorhynchus_obscurus_TMC1:0.0000027054)35:0.0000027054,Cephalorhynchus_commersonii_TMC1:0.0000027054)41:0.0000027054,((Lissodelphis_peronii_TMC1:0.0000027054,Lagenorhynchus_obliquidens_TMC1:0.0004255400)40:0.0000020064,Lagenorhynchus_australis_TMC1:0.0000027054)40:0.0000112591)71:0.0004438754,(((((Pontoporia_blainvillei_TMC1:0.0030043110,Inia_geoffrensis_TMC1:0.0026245956)99:0.0023988946,Lipotes_vexillifer_TMC1:0.0048124292)81:0.0006412225,((Mesoplodon_densirostris_TMC1:0.0013390920,(Hyperoodon:0.0005292768,Ziphius_cavirostris_TMC1:0.0029822034)97:0.0011104461)88:0.0000022885,(((Kogia_sima_TMC1:0.0050251103,Kogia_breviceps_TMC1:0.0048444679)96:0.0025603647,Physeter_catodon_TMC1:0.0035949714)100:0.0053206092,(((Eubalaena_glacialis_TMC1:0.0041847978,((Eschrichtius_robustus_TMC1:0.0037740884,(Balaenoptera_physalus_TMC1:0.0000027054,Megaptera_novaeangliae_TMC1:0.0010897904)99:0.0004950170)71:0.0000027078,Balaenoptera_acutorostrata_TMC1:0.0026542854)79:0.0015874627)100:0.0057943663,(Bos_taurus_TMC1:0.0328632856,Sus_scrofa_TMC1:0.0341974660)100:0.0156027487)92:0.0018821250,Platanista_gangetica_TMC1:0.0088276392)88:0.0013915311)89:0.0012437551)100:0.0069990442)91:0.0021526759,(((((Phocoena_spinipinnis_TMC1:0.0012198988,Phocoena_sinus_TMC1:0.0000027054)99:0.0004370362,Neophocaena_asiaeorientalis_asiaeorientalis_TMC1:0.0000027054)89:0.0003368511,Neophocaena_phocaenoides_TMC1:0.0031296064)77:0.0006214698,Phocoena_phocoena_TMC1:0.0006823973)100:0.0025179102,(Monodon_monoceros_TMC1:0.0006863613,Delphinapterus_leucas_TMC1:0.0004740195)80:0.0004927702)100:0.0032904461)98:0.0022226051,(((Feresa_attenuata_TMC1:0.0000027054,Peponocephala_electra_TMC1:0.0005275758)99:0.0005279677,Grampus_griseus_TMC1:0.0005271123)90:0.0000027054,Globicephala_melas_TMC1:0.0004374457)99:0.0013121955)34:0.0000023532)46:0.0004407606)64:0.0008813228,Tursiops_truncatus_TMC1:0.0004407046)35:0.0000027054,Tursiops_aduncus_TMC1:0.0005312277)31:0.0000881384,Delphinus_delphis_TMC1:0.0004375729);
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 23 22:54:12 2022
+Total CPU time used: 72.518441 seconds (0h:1m:12s)
+Total wall-clock time used: 73.67340899 seconds (0h:1m:13s)
+

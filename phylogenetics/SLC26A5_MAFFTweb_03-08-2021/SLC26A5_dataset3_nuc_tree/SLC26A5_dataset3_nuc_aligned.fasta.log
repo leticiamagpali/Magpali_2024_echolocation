@@ -1,0 +1,288 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s SLC26A5_dataset3_nuc_aligned.fasta -st DNA -m TEST -bb 10000 -alrt 5000 -abayes
+Seed:    380964 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 23 22:56:19 2022
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file SLC26A5_dataset3_nuc_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 44 sequences with 2226 columns, 314 distinct patterns
+147 parsimony-informative, 178 singleton sites, 1901 constant sites
+                                                     Gap/Ambiguity  Composition  p-value
+   1  Stenella_attenuata_SLC26A5                             0.00%    passed     99.98%
+   2  Delphinus_delphis_SLC26A5                              0.00%    passed     99.96%
+   3  Tursiops_truncatus_SLC26A5                             0.00%    passed     99.93%
+   4  Feresa_attenuata_SLC26A5                               0.00%    passed    100.00%
+   5  Globicephala_melas_SLC26A5                             0.00%    passed     99.98%
+   6  Peponocephala_electra_SLC26A5                          0.00%    passed    100.00%
+   7  Orcaella_brevirostris_SLC26A5                          0.00%    passed    100.00%
+   8  Grampus_griseus_SLC26A5                                0.00%    passed     99.98%
+   9  Orcaella_heinsohni_SLC26A5                             0.00%    passed    100.00%
+  10  Lissodelphis_peronii_SLC26A5                           0.00%    passed     99.92%
+  11  Lagenorhynchus_obscurus_SLC26A5                        0.00%    passed     99.77%
+  12  Lagenorhynchus_obliquidens_SLC26A5                     0.00%    passed     99.71%
+  13  Lagenorhynchus_australis_SLC26A5                       0.00%    passed     99.77%
+  14  Cephalorhynchus_heavisidii_SLC26A5                     0.00%    passed     99.92%
+  15  Orcinus_orca_SLC26A5                                   0.00%    passed     99.92%
+  16  Sotalia_guianensis_SLC26A5                             2.02%    passed     98.67%
+  17  Sotalia_fluviatilis_SLC26A5                            2.02%    passed     98.75%
+  18  Tursiops_aduncus_SLC26A5                               4.31%    passed     99.64%
+  19  Sousa_chinensis_SLC26A5                                4.31%    passed     99.64%
+  20  Phocoena_sinus_SLC26A5                                 0.09%    passed     99.60%
+  21  Phocoena_phocoena_SLC26A5                              0.00%    passed     99.83%
+  22  Neophocaena_asiaeorientalis_asiaeorientalis_SLC26A5    0.00%    passed     99.87%
+  23  Monodon_monoceros_SLC26A5                              0.00%    passed     99.90%
+  24  Delphinapterus_leucas_SLC26A5                          0.00%    passed     99.98%
+  25  Lipotes_vexillifer_SLC26A5                             0.00%    passed     99.17%
+  26  Phocoena_spinipinnis_SLC26A5                           8.98%    passed     91.79%
+  27  Cephalorhynchus_commersonii_SLC26A5                    4.31%    passed     97.14%
+  28  Mesoplodon_densirostris_SLC26A5                        0.00%    passed     98.03%
+  29  Hyperoodon_ampullatus_SLC26A5                          0.00%    passed     99.52%
+  30  Ziphius_cavirostris_SLC26A5                            0.00%    passed     96.64%
+  31  Kogia_breviceps_SLC26A5                                0.00%    passed     96.47%
+  32  Kogia_sima_SLC26A5                                     4.40%    passed     95.00%
+  33  Physeter_catodon_SLC26A5                               0.00%    passed     97.02%
+  34  Pontoporia_blainvillei_SLC26A5                        10.56%    passed     99.15%
+  35  Inia_geoffrensis_SLC26A5                              19.59%    passed     77.51%
+  36  Platanista_gangetica_SLC26A5                           0.00%    passed     99.45%
+  37  Balaenoptera_physalus_SLC26A5                          0.00%    passed     99.94%
+  38  Megaptera_novaeangliae_SLC26A5                         0.00%    passed     99.89%
+  39  Balaenoptera_acutorostrata_SLC26A5                     0.00%    passed     99.63%
+  40  Eschrichtius_robustus_SLC26A5                          6.83%    passed     89.53%
+  41  Eubalaena_glacialis_SLC26A5                            0.04%    passed     99.89%
+  42  Neophocaena_phocaenoides_SLC26A5                      14.29%    passed     81.31%
+  43  Bos_taurus_SLC26A5                                     0.00%    passed     75.67%
+  44  Sus_scrofa_SLC26A5                                     0.00%    passed     92.27%
+****  TOTAL                                                  1.86%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 2226) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            6267.394     85  12704.788    12711.620    13189.965
+  2  JC+I          6157.532     86  12487.064    12494.060    12977.948
+  3  JC+G4         6157.155     86  12486.310    12493.306    12977.195
+  4  JC+I+G4       6153.750     87  12481.499    12488.661    12978.092
+  5  F81+F         6262.642     88  12701.283    12708.613    13203.584
+  6  F81+F+I       6152.815     89  12483.629    12491.129    12991.638
+  7  F81+F+G4      6152.432     89  12482.864    12490.364    12990.873
+  8  F81+F+I+G4    6149.023     90  12478.046    12485.719    12991.763
+  9  K2P           6104.855     86  12381.710    12388.706    12872.594
+ 10  K2P+I         5988.020     87  12150.040    12157.202    12646.633
+ 11  K2P+G4        5988.070     87  12150.139    12157.301    12646.732
+ 12  K2P+I+G4      5983.903     88  12143.805    12151.135    12646.106
+ 13  HKY+F         6099.030     89  12376.060    12383.560    12884.069
+ 14  HKY+F+I       5981.974     90  12143.947    12151.619    12657.664
+ 15  HKY+F+G4      5982.023     90  12144.047    12151.719    12657.763
+ 16  HKY+F+I+G4    5977.877     91  12137.754    12145.600    12657.179
+ 17  TNe           6104.640     87  12383.279    12390.441    12879.872
+ 18  TNe+I         5987.193     88  12150.387    12157.717    12652.688
+ 19  TNe+G4        5987.300     88  12150.599    12157.929    12652.900
+ 20  TNe+I+G4      5983.233     89  12144.465    12151.965    12652.474
+ 21  TN+F          6098.965     90  12377.930    12385.602    12891.646
+ 22  TN+F+I        5981.404     91  12144.807    12152.654    12664.232
+ 23  TN+F+G4       5981.507     91  12145.013    12152.860    12664.438
+ 24  TN+F+I+G4     5977.439     92  12138.878    12146.900    12664.010
+ 25  K3P           6104.686     87  12383.372    12390.534    12879.965
+ 26  K3P+I         5987.929     88  12151.858    12159.188    12654.159
+ 27  K3P+G4        5987.976     88  12151.953    12159.283    12654.253
+ 28  K3P+I+G4      5983.800     89  12145.600    12153.100    12653.608
+ 29  K3Pu+F        6098.841     90  12377.683    12385.355    12891.399
+ 30  K3Pu+F+I      5981.850     91  12145.701    12153.547    12665.125
+ 31  K3Pu+F+G4     5981.897     91  12145.794    12153.641    12665.219
+ 32  K3Pu+F+I+G4   5977.747     92  12139.494    12147.517    12664.627
+ 33  TPM2+F        6099.018     90  12378.037    12385.709    12891.753
+ 34  TPM2+F+I      5981.934     91  12145.868    12153.714    12665.292
+ 35  TPM2+F+G4     5981.990     91  12145.981    12153.827    12665.405
+ 36  TPM2+F+I+G4   5977.825     92  12139.650    12147.672    12664.782
+ 37  TPM2u+F       6099.018     90  12378.037    12385.709    12891.753
+ 38  TPM2u+F+I     5981.934     91  12145.868    12153.714    12665.292
+ 39  TPM2u+F+G4    5981.990     91  12145.980    12153.827    12665.405
+ 40  TPM2u+F+I+G4  5977.821     92  12139.642    12147.664    12664.774
+ 41  TPM3+F        6094.807     90  12369.613    12377.285    12883.330
+ 42  TPM3+F+I      5977.997     91  12137.994    12145.841    12657.419
+ 43  TPM3+F+G4     5977.976     91  12137.951    12145.798    12657.376
+ 44  TPM3+F+I+G4   5973.781     92  12131.562    12139.584    12656.694
+ 45  TPM3u+F       6094.808     90  12369.617    12377.289    12883.333
+ 46  TPM3u+F+I     5977.998     91  12137.995    12145.842    12657.420
+ 47  TPM3u+F+G4    5977.976     91  12137.951    12145.798    12657.376
+ 48  TPM3u+F+I+G4  5973.777     92  12131.555    12139.577    12656.687
+ 49  TIMe          6104.470     88  12384.941    12392.271    12887.241
+ 50  TIMe+I        5987.105     89  12152.210    12159.710    12660.218
+ 51  TIMe+G4       5987.205     89  12152.409    12159.909    12660.418
+ 52  TIMe+I+G4     5983.121     90  12146.242    12153.914    12659.959
+ 53  TIM+F         6098.775     91  12379.550    12387.396    12898.974
+ 54  TIM+F+I       5981.282     92  12146.565    12154.587    12671.697
+ 55  TIM+F+G4      5981.379     92  12146.759    12154.781    12671.891
+ 56  TIM+F+I+G4    5977.298     93  12140.597    12148.797    12671.437
+ 57  TIM2e         6104.591     88  12385.182    12392.512    12887.483
+ 58  TIM2e+I       5987.191     89  12152.381    12159.881    12660.390
+ 59  TIM2e+G4      5987.296     89  12152.592    12160.092    12660.601
+ 60  TIM2e+I+G4    5983.196     90  12146.392    12154.064    12660.108
+ 61  TIM2+F        6098.952     91  12379.905    12387.751    12899.329
+ 62  TIM2+F+I      5981.362     92  12146.725    12154.747    12671.857
+ 63  TIM2+F+G4     5981.472     92  12146.945    12154.967    12672.077
+ 64  TIM2+F+I+G4   5977.369     93  12140.737    12148.938    12671.577
+ 65  TIM3e         6101.867     88  12379.734    12387.064    12882.034
+ 66  TIM3e+I       5984.835     89  12147.669    12155.169    12655.678
+ 67  TIM3e+G4      5984.903     89  12147.806    12155.306    12655.815
+ 68  TIM3e+I+G4    5980.846     90  12141.692    12149.364    12655.408
+ 69  TIM3+F        6094.741     91  12371.481    12379.327    12890.906
+ 70  TIM3+F+I      5977.423     92  12138.846    12146.869    12663.979
+ 71  TIM3+F+G4     5977.463     92  12138.925    12146.948    12664.058
+ 72  TIM3+F+I+G4   5973.325     93  12132.650    12140.851    12663.491
+ 73  TVMe          6101.898     89  12381.796    12389.296    12889.805
+ 74  TVMe+I        5985.619     90  12151.238    12158.911    12664.955
+ 75  TVMe+G4       5985.630     90  12151.259    12158.931    12664.976
+ 76  TVMe+I+G4     5981.463     91  12144.925    12152.772    12664.350
+ 77  TVM+F         6094.651     92  12373.302    12381.324    12898.434
+ 78  TVM+F+I       5977.872     93  12141.744    12149.945    12672.585
+ 79  TVM+F+G4      5977.856     93  12141.713    12149.913    12672.553
+ 80  TVM+F+I+G4    5973.635     94  12135.270    12143.651    12671.818
+ 81  SYM           6101.689     90  12383.377    12391.050    12897.094
+ 82  SYM+I         5984.763     91  12151.526    12159.372    12670.950
+ 83  SYM+G4        5984.831     91  12151.663    12159.509    12671.087
+ 84  SYM+I+G4      5980.780     92  12145.560    12153.583    12670.693
+ 85  GTR+F         6094.587     93  12375.175    12383.376    12906.015
+ 86  GTR+F+I       5977.309     94  12142.617    12150.998    12679.165
+ 87  GTR+F+G4      5977.345     94  12142.690    12151.071    12679.238
+ 88  GTR+F+I+G4    5973.214     95  12136.429    12144.992    12678.685
+Akaike Information Criterion:           TPM3u+F+I+G4
+Corrected Akaike Information Criterion: TPM3u+F+I+G4
+Bayesian Information Criterion:         K2P+I+G4
+Best-fit model: K2P+I+G4 chosen according to BIC
+
+All model information printed to SLC26A5_dataset3_nuc_aligned.fasta.model.gz
+CPU time for ModelFinder: 1.280 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.463 seconds (0h:0m:1s)
+Generating 10000 samples for ultrafast bootstrap (seed: 380964)...
+
+NOTE: 14 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.079 / LogL: -5988.069
+Init pinv, alpha: 0.095, 1.000 / Estimate: 0.096, 0.131 / LogL: -5986.923
+Init pinv, alpha: 0.190, 1.000 / Estimate: 0.191, 0.180 / LogL: -5985.885
+Init pinv, alpha: 0.285, 1.000 / Estimate: 0.286, 0.240 / LogL: -5984.978
+Init pinv, alpha: 0.380, 1.000 / Estimate: 0.381, 0.325 / LogL: -5984.222
+Init pinv, alpha: 0.474, 1.000 / Estimate: 0.476, 0.458 / LogL: -5983.656
+Init pinv, alpha: 0.569, 1.000 / Estimate: 0.570, 0.706 / LogL: -5983.364
+Init pinv, alpha: 0.664, 1.000 / Estimate: 0.662, 1.320 / LogL: -5983.613
+Init pinv, alpha: 0.759, 1.000 / Estimate: 0.724, 2.823 / LogL: -5984.763
+Init pinv, alpha: 0.854, 1.000 / Estimate: 0.724, 2.824 / LogL: -5984.854
+Optimal pinv,alpha: 0.570, 0.706 / LogL: -5983.364
+
+Parameters optimization took 0.975 sec
+Computing ML distances based on estimated model parameters... 0.012 sec
+Computing BIONJ tree...
+0.045 seconds
+Log-likelihood of BIONJ tree: -6005.768
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.185 second
+Computing log-likelihood of 98 initial trees ... 0.587 seconds
+Current best score: -5975.938
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5975.875
+BETTER TREE FOUND at iteration 2: -5975.875
+Iteration 10 / LogL: -5975.879 / Time: 0h:0m:4s
+BETTER TREE FOUND at iteration 19: -5975.874
+Iteration 20 / LogL: -5975.882 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -5975.874 / CPU time: 4.462
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 24: -5975.869
+Iteration 30 / LogL: -5977.188 / Time: 0h:0m:8s (0h:0m:29s left)
+BETTER TREE FOUND at iteration 32: -5975.868
+Iteration 40 / LogL: -5975.874 / Time: 0h:0m:11s (0h:0m:27s left)
+UPDATE BEST LOG-LIKELIHOOD: -5975.868
+BETTER TREE FOUND at iteration 45: -5975.868
+UPDATE BEST LOG-LIKELIHOOD: -5975.867
+Iteration 50 / LogL: -5975.867 / Time: 0h:0m:13s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -6021.565
+Iteration 60 / LogL: -5975.873 / Time: 0h:0m:17s (0h:0m:25s left)
+Iteration 70 / LogL: -5975.873 / Time: 0h:0m:20s (0h:0m:22s left)
+Iteration 80 / LogL: -5975.876 / Time: 0h:0m:23s (0h:0m:19s left)
+Iteration 90 / LogL: -5975.868 / Time: 0h:0m:26s (0h:0m:16s left)
+BETTER TREE FOUND at iteration 91: -5975.866
+Iteration 100 / LogL: -5975.867 / Time: 0h:0m:28s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -6021.565
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -5975.869 / Time: 0h:0m:32s (0h:0m:26s left)
+Iteration 120 / LogL: -5975.871 / Time: 0h:0m:35s (0h:0m:23s left)
+UPDATE BEST LOG-LIKELIHOOD: -5975.866
+Iteration 130 / LogL: -5975.866 / Time: 0h:0m:38s (0h:0m:20s left)
+Iteration 140 / LogL: -5975.872 / Time: 0h:0m:41s (0h:0m:17s left)
+Iteration 150 / LogL: -5975.872 / Time: 0h:0m:43s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -6021.565
+Iteration 160 / LogL: -5975.867 / Time: 0h:0m:47s (0h:0m:11s left)
+UPDATE BEST LOG-LIKELIHOOD: -5975.865
+Iteration 170 / LogL: -5975.866 / Time: 0h:0m:50s (0h:0m:9s left)
+UPDATE BEST LOG-LIKELIHOOD: -5975.865
+Iteration 180 / LogL: -5975.871 / Time: 0h:0m:54s (0h:0m:6s left)
+Iteration 190 / LogL: -5975.866 / Time: 0h:0m:57s (0h:0m:3s left)
+Iteration 200 / LogL: -5975.873 / Time: 0h:1m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -6021.565
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:1m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5975.865
+Optimal log-likelihood: -5975.865
+Rate parameters:  A-C: 1.00000  A-G: 6.74646  A-T: 1.00000  C-G: 1.00000  C-T: 6.74646  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.570
+Gamma shape alpha: 0.712
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -5975.865
+
+Testing tree branches by SH-like aLRT with 5000 replicates...
+Testing tree branches by aBayes parametric test...
+10.744 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file SLC26A5_dataset3_nuc_aligned.fasta.splits.nex
+Total tree length: 0.237
+
+Total number of iterations: 200
+CPU time used for tree search: 59.008 sec (0h:0m:59s)
+Wall-clock time used for tree search: 59.859 sec (0h:0m:59s)
+Total CPU time used: 72.388 sec (0h:1m:12s)
+Total wall-clock time used: 73.677 sec (0h:1m:13s)
+
+Computing bootstrap consensus tree...
+Reading input file SLC26A5_dataset3_nuc_aligned.fasta.splits.nex...
+44 taxa and 510 splits.
+Consensus tree written to SLC26A5_dataset3_nuc_aligned.fasta.contree
+Reading input trees file SLC26A5_dataset3_nuc_aligned.fasta.contree
+Log-likelihood of consensus tree: -5975.874
+
+Analysis results written to: 
+  IQ-TREE report:                SLC26A5_dataset3_nuc_aligned.fasta.iqtree
+  Maximum-likelihood tree:       SLC26A5_dataset3_nuc_aligned.fasta.treefile
+  Likelihood distances:          SLC26A5_dataset3_nuc_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          SLC26A5_dataset3_nuc_aligned.fasta.splits.nex
+  Consensus tree:                SLC26A5_dataset3_nuc_aligned.fasta.contree
+  Screen log file:               SLC26A5_dataset3_nuc_aligned.fasta.log
+
+Date and Time: Fri Sep 23 22:57:35 2022
